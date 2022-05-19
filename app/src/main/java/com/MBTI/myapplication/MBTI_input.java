@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.content.SharedPreferences;
 
 public class MBTI_input extends AppCompatActivity {
 
@@ -20,7 +19,7 @@ public class MBTI_input extends AppCompatActivity {
         Button btn_unknown = (Button)findViewById(R.id.btn_unknown);
         btn_unknown.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
+            public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),unknown.class);
                 startActivity(intent);
             }
