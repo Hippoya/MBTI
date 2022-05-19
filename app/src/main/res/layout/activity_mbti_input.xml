@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MBTI_input">
+
+
+    <EditText
+        android:id="@+id/et_mbti"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="당신의 mbti는? (대문자로 입력하세요)" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="확인" />
+
+    <Button
+        android:id="@+id/btn_orwhat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="잘모르겠어요" />
+
+</LinearLayout>
