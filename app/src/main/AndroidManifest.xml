@@ -14,6 +14,9 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".MBTI_test"
+            android:exported="false" />
+        <activity
             android:name=".test_scroll"
             android:exported="false"
             android:label="@string/title_activity_test_scroll"
