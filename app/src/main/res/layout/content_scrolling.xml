@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_test_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".test_scroll">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="당신의 mbti는?" />
+
+    <!--INTJ -->
+    <Button
+        android:id="@+id/btn_intj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="INTJ" />
+
+    <!--INTP -->
+
+    <Button
+        android:id="@+id/btn_intp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="INTP" />
+
+    <!--ENTP -->
+
+    <Button
+        android:id="@+id/btn_entp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ENTP" />
+
+    <!--ENTJ -->
+
+    <Button
+        android:id="@+id/btn_entj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ENTJ" />
+
+    <!--INFJ -->
+
+    <Button
+        android:id="@+id/btn_infj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="INFJ" />
+
+    <!--INFP -->
+
+    <Button
+        android:id="@+id/btn_infp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="INFP" />
+
+    <!--ISFJ -->
+
+    <Button
+        android:id="@+id/btn_isfj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ISFJ" />
+
+    <!--ISFP -->
+
+    <Button
+        android:id="@+id/btn_isfp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ISFP" />
+
+    <!--ESFP -->
+
+    <Button
+        android:id="@+id/btn_esfp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ESFP" />
+
+    <!--ESFJ -->
+
+    <Button
+        android:id="@+id/btn_esfj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ESFJ" />
+
+    <!--ISTJ -->
+
+    <Button
+        android:id="@+id/btn_istj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ISTJ" />
+
+    <!--ISTP -->
+
+    <Button
+        android:id="@+id/btn_istp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ISTP" />
+
+    <!--ESTP -->
+
+    <Button
+        android:id="@+id/btn_estp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ESTP" />
+
+    <!--ESTJ -->
+
+    <Button
+        android:id="@+id/btn_estj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ESTJ" />
+
+    <!--ENFP -->
+
+    <Button
+        android:id="@+id/btn_enfp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ENFP" />
+
+    <!--ENFJ -->
+
+    <Button
+        android:id="@+id/btn_enfj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="ENFJ" />
+
+</androidx.core.widget.NestedScrollView>
