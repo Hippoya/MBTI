@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/kotra_hope"
-        android:text="[INFP의 여행자아]"
+        android:text="&lt;INFP의 여행자아&gt;"
         android:textColor="#000000"
         android:textSize="25sp" />
 
@@ -70,7 +70,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/kotra_hope"
-        android:text="드라마 <로맨스는 별책부록>을 보고 북카페를 찾아가보는 것이 어떨까요?"
+        android:text="&lt;드라마 로맨스는 별책부록&gt;을 보고 북카페를 찾아가보는 것이 어떨까요?"
         android:gravity="center"
         android:textSize="23sp" />
 
