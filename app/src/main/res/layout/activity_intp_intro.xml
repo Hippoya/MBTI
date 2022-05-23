@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".intp_intro">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="<INTP의 여행자아>"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="늘 새로운 아이디어가 넘치고,"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="규율에서 벗어나고 싶은 당신!"
+        android:gravity="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="사람들에게 잘 알려지지 않은 여행지"
+        android:gravity="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="‘합천’을 추천합니다!"
+        android:gravity="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="북적이지 않는 사찰에서 사색을 즐기기도 하고 카페에서 나만의 감성 사진을 실컷 찍고 올 수 있을 거예요!"
+        android:gravity="center"
+        android:textSize="23sp" />
+
+
+</LinearLayout>

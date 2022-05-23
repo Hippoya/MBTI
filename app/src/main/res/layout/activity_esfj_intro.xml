@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".esfj_intro">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="<ESFJ의 여행자아>"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="잘 맞는 사람들과 대화하기를 좋아하는 당신!"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="좋아하는 가족이나 친구와 여행지로 적합한"
+        android:gravity="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="‘여수’가 찰떡 여행지네요!"
+        android:gravity="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="잘 통하는 사람들과 풀빌라나 펜션을 예약해 대화하는 시간을 보내면 그동안 쌓인 스트레스가 싹 사라질 거예요!"
+        android:gravity="center"
+        android:textSize="23sp" />
+
+
+
+</LinearLayout>

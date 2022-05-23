@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".istj_intro">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="<ISTJ의 여행자아>"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="책임감이 강하고, 여행 계획도 엑셀에"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="분 단위로 정리하고 싶은 당신은"
+        android:gravity="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="‘서울’과 환상의 궁합을 자랑하네요!"
+        android:gravity="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="도시와 전통이 한데 어우러진 서울에서 효율적인 동선으로 다양한 경험을 즐길 수 있을 거예요."
+        android:gravity="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="완벽한 계획의 코스를 돌아보고, 근사한 호텔에서 반신욕 어때요?"
+        android:gravity="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="환상의 휴가를 보냈다고 생각하게 될 거예요!"
+        android:gravity="center"
+        android:textSize="23sp" />
+</LinearLayout>

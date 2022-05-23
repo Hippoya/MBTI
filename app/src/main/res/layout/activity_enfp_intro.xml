@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".enfp_intro">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="<ENFP의 여행자아>"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="통통 튀는 매력의 소유자로 새로운 도전을 좋아하는 당신!"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="무계획이 여행의 참맛이라고 생각하는 당신에게"
+        android:gravity="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="‘포천’이 딱이네요!"
+        android:gravity="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="몸도 마음도 가볍게 찾아간 글램핑장에서 일상을 벗어난 여유를 만끽할 수 있을 거예요!"
+        android:gravity="center"
+        android:textSize="23sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="늦은 저녁 불멍하며 마시는 맥주 한 캔이 지금껏 쌓인 스트레스를 모두 날려줄 거예요!"
+        android:gravity="center"
+        android:textSize="23sp" />
+
+
+</LinearLayout>
