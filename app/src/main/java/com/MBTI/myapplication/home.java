@@ -6,8 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class home extends AppCompatActivity {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,5 +27,24 @@ public class home extends AppCompatActivity {
         });
 
 
+    }
+    
+    // 홈 화면에서 뒤로 가기 버튼을 2초 이내에 2번 누르면 어플 종료
+    private long backKeyPressedTime = 0;
+    private Toast toast;
+
+    @Override
+    public void onBackPressed() {
+        if (System.currentTimeMillis() > backKeyPressedTime + 2000) {
+            backKeyPressedTime = System.currentTimeMillis();
+            toast = Toast.makeText(this, "뒤로?", Toast.LENGTH_SHORT);
+            toast.show();
+        }
+        else {
+            toast.cancel();
+            finishAffinity();
+            System.runFinalization();
+            System.exit(0);
+        }
     }
 }
