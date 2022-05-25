@@ -15,7 +15,7 @@ public class MBTI_input extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mbti_input);
 
-        //INTJ 버튼 클릭시 테스트 화면 이동
+        //INTJ 버튼 클릭시 홈 화면으로 이동
         Button btn_intj = (Button)findViewById(R.id.btn_intj);
         btn_intj.setOnClickListener(new View.OnClickListener() {
             @Override

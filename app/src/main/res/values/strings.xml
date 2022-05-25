@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="mbti_input">MBTI 설정 화면</string>
+    <string name="home">홈</string>
+    <string name="app_name">여행을 떠나자</string>
     <string name="title_activity_test_scroll">test_scroll</string>
     <string name="large_text">
         "Material is the metaphor.\n\n"

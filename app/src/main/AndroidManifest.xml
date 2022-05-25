@@ -14,7 +14,11 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".all_mbti"
+            android:exported="false" />
+        <activity
             android:name=".home"
+            android:label="@string/home"
             android:exported="false" />
         <activity
             android:name=".enfj_intro"
@@ -69,6 +73,7 @@
             android:exported="false" />
         <activity
             android:name=".MBTI_input"
+            android:label="@string/mbti_input"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
