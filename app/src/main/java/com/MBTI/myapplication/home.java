@@ -6,8 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 import android.widget.Toast;
+
+import com.MBTI.myapplication.intro.intj_intro;
+import com.MBTI.myapplication.intro.intp_intro;
 
 public class home extends AppCompatActivity {
 

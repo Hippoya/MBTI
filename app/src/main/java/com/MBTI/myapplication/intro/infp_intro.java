@@ -1,8 +1,10 @@
-package com.MBTI.myapplication;
+package com.MBTI.myapplication.intro;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.MBTI.myapplication.R;
 
 public class infp_intro extends AppCompatActivity {
 

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".esfj_intro">
+    tools:context=".intro.esfj_intro">
 
     <TextView
         android:layout_width="wrap_content"
