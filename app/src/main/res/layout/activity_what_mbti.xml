@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".what_mbti">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kotra_hope"
+        android:text="Q1 : 당신은 외향적인가요? 내향적인가요?"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_etype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/kotra_hope"
+        android:text="외향적" />
+
+    <Button
+        android:id="@+id/btn_itype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/kotra_hope"
+        android:text="내향적" />
+
+</LinearLayout>
