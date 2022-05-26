@@ -13,22 +13,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
-
+        <activity
+            android:name=".intj1"
+            android:exported="false" />
+        <activity
+            android:name=".intj_list"
+            android:exported="false" />
         <activity
             android:name=".all_mbti"
             android:exported="false" />
         <activity
             android:name=".home"
-            android:label="@string/home"
-            android:exported="false" />
-
+            android:exported="false"
+            android:label="@string/home" />
         <activity
             android:name=".all_mbti"
             android:exported="false" />
         <activity
             android:name=".home"
-            android:label="@string/home"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/home" />
         <activity
             android:name=".enfj_intro"
             android:exported="false" />
@@ -82,8 +86,8 @@
             android:exported="false" />
         <activity
             android:name=".MBTI_input"
-            android:label="@string/mbti_input"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/mbti_input" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
