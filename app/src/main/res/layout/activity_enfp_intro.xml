@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".enfp_intro">
+    tools:context=".intro.enfp_intro">
 
     <TextView
         android:layout_width="wrap_content"

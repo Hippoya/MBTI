@@ -1,4 +1,4 @@
-package com.MBTI.myapplication;
+package com.MBTI.myapplication.list.intj;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,9 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.MBTI.myapplication.R;
+import com.MBTI.myapplication.list.intj.intj1;
 
 import java.util.List;
 import java.util.ArrayList;

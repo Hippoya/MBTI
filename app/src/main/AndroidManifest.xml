@@ -14,10 +14,10 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".intj1"
+            android:name=".list.intj.intj1"
             android:exported="false" />
         <activity
-            android:name=".intj_list"
+            android:name=".list.intj.intj_list"
             android:exported="false" />
         <activity
             android:name=".all_mbti"
@@ -27,62 +27,52 @@
             android:exported="false"
             android:label="@string/home" />
         <activity
-            android:name=".all_mbti"
+            android:name=".intro.enfj_intro"
             android:exported="false" />
         <activity
-            android:name=".home"
-            android:exported="false"
-            android:label="@string/home" />
-        <activity
-            android:name=".enfj_intro"
+            android:name=".intro.enfp_intro"
             android:exported="false" />
         <activity
-            android:name=".enfp_intro"
+            android:name=".intro.estj_intro"
             android:exported="false" />
         <activity
-            android:name=".estj_intro"
+            android:name=".intro.estp_intro"
             android:exported="false" />
         <activity
-            android:name=".estp_intro"
+            android:name=".intro.istp_intro"
             android:exported="false" />
         <activity
-            android:name=".istp_intro"
+            android:name=".intro.istj_intro"
             android:exported="false" />
         <activity
-            android:name=".istj_intro"
+            android:name=".intro.esfp_intro"
             android:exported="false" />
         <activity
-            android:name=".esfp_intro"
+            android:name=".intro.isfp_intro"
             android:exported="false" />
         <activity
-            android:name=".isfp_intro"
+            android:name=".intro.isfj_intro"
             android:exported="false" />
         <activity
-            android:name=".isfj_intro"
+            android:name=".intro.infp_intro"
             android:exported="false" />
         <activity
-            android:name=".infp_intro"
+            android:name=".intro.infj_intro"
             android:exported="false" />
         <activity
-            android:name=".infj_intro"
+            android:name=".intro.entj_intro"
             android:exported="false" />
         <activity
-            android:name=".entj_intro"
+            android:name=".intro.entp_intro"
             android:exported="false" />
         <activity
-            android:name=".entp_intro"
+            android:name=".intro.intp_intro"
             android:exported="false" />
         <activity
-            android:name=".intp_intro"
+            android:name=".intro.esfj_intro"
             android:exported="false" />
         <activity
-            android:name=".esfj_intro"
-            android:exported="false" />
-        <activity
-            android:name=".intj_intro"
-            android:exported="false" />
-        <activity
-            android:name=".MBTI_test"
+            android:name=".intro.intj_intro"
             android:exported="false" />
         <activity
             android:name=".MBTI_input"
@@ -97,7 +87,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".unknown" />
     </application>
 
 </manifest>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".intj_list">
+    tools:context=".list.intj.intj_list">
 
     <ListView
         android:id='@+id/intj_list'

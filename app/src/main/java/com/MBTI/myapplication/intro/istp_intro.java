@@ -1,14 +1,16 @@
-package com.MBTI.myapplication;
+package com.MBTI.myapplication.intro;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class infj_intro extends AppCompatActivity {
+import com.MBTI.myapplication.R;
+
+public class istp_intro extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_infj_intro);
+        setContentView(R.layout.activity_istp_intro);
     }
 }
