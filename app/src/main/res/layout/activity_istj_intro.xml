@@ -64,4 +64,10 @@
         android:text="환상의 휴가를 보냈다고 생각하게 될 거예요!"
         android:gravity="center"
         android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/btn_istj_list"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Button" />
 </LinearLayout>

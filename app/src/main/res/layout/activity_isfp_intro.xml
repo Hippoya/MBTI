@@ -64,4 +64,10 @@
         android:text="당신이 좋아하는 맛있고 보기 좋은 음식을 접할 공간도 가득하답니다!"
         android:gravity="center"
         android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/btn_isfp_list"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Button" />
 </LinearLayout>
