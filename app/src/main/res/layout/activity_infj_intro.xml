@@ -56,4 +56,10 @@
         android:text="오션뷰 숙소에서 좋아하는 영화를 보면 꿈꾸던 여행을 완성할 수 있을 거예요!"
         android:gravity="center"
         android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/btn_infj_list"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Button" />
 </LinearLayout>

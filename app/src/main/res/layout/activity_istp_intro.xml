@@ -73,5 +73,11 @@
         android:gravity="center"
         android:textSize="23sp" />
 
+    <Button
+        android:id="@+id/btn_istp_list"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Button" />
+
 
 </LinearLayout>

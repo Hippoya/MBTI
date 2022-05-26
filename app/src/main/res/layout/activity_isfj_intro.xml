@@ -64,4 +64,10 @@
         android:text="마음이 맞는 사람과 순천만에서 노을을 보는 시간은 그간 쌓인 스트레스를 눈 녹듯 녹여줄 거예요!"
         android:gravity="center"
         android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/btn_isfj_list"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Button" />
 </LinearLayout>
