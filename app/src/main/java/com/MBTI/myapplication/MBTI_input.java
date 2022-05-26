@@ -174,19 +174,5 @@ public class MBTI_input extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
-
-        //잘모르겠어요 버튼 클릭시 테스트 화면 이동
-        Button btn_unknown = (Button)findViewById(R.id.btn_unknown);
-        btn_unknown.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                    Intent intent = new Intent(getApplicationContext(), unknown.class);
-                    startActivity(intent);
-            }
-        });
-
-
     }
 }
