@@ -14,6 +14,54 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".istp_list"
+            android:exported="false" />
+        <activity
+            android:name=".istj_list"
+            android:exported="false" />
+        <activity
+            android:name=".isfp_list"
+            android:exported="false" />
+        <activity
+            android:name=".isfj_list"
+            android:exported="false" />
+        <activity
+            android:name=".intp_list"
+            android:exported="false" />
+        <activity
+            android:name=".intp"
+            android:exported="false" />
+        <activity
+            android:name=".infp_list"
+            android:exported="false" />
+        <activity
+            android:name=".infj_list"
+            android:exported="false" />
+        <activity
+            android:name=".estp_list"
+            android:exported="false" />
+        <activity
+            android:name=".estj_list"
+            android:exported="false" />
+        <activity
+            android:name=".esfp_list"
+            android:exported="false" />
+        <activity
+            android:name=".esfj_list"
+            android:exported="false" />
+        <activity
+            android:name=".entp_list"
+            android:exported="false" />
+        <activity
+            android:name=".entj_list"
+            android:exported="false" />
+        <activity
+            android:name=".enfp_list"
+            android:exported="false" />
+        <activity
+            android:name=".enfj_list"
+            android:exported="false" />
+        <activity
             android:name=".list.intj.intj1"
             android:exported="false" />
         <activity
