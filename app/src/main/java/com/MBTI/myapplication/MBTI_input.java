@@ -20,8 +20,11 @@ public class MBTI_input extends AppCompatActivity {
         btn_intj.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                    Intent intent = new Intent(getApplicationContext(), home.class);
-                    startActivity(intent);
+                //INTJ = 0번
+                Intent intent = new Intent(getApplicationContext(), home.class);
+                //Home에다가 my_mbti로 id 전달
+                intent.putExtra("my_mbti", 0);
+                startActivity(intent);
             }
         });
 
@@ -30,7 +33,10 @@ public class MBTI_input extends AppCompatActivity {
         btn_intp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //INTP = 1번
                 Intent intent = new Intent(getApplicationContext(), home.class);
+                //Home에다가 my_mbti로 id 전달
+                intent.putExtra("my_mbti", 1);
                 startActivity(intent);
             }
         });
@@ -40,7 +46,10 @@ public class MBTI_input extends AppCompatActivity {
         btn_entj.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //ENTJ = 2번
                 Intent intent = new Intent(getApplicationContext(), home.class);
+                //Home에다가 my_mbti로 id 전달
+                intent.putExtra("my_mbti", 2);
                 startActivity(intent);
             }
         });
@@ -50,7 +59,10 @@ public class MBTI_input extends AppCompatActivity {
         btn_entp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //ENTP = 3번
                 Intent intent = new Intent(getApplicationContext(), home.class);
+                //Home에다가 my_mbti로 id 전달
+                intent.putExtra("my_mbti", 3);
                 startActivity(intent);
             }
         });
@@ -60,7 +72,10 @@ public class MBTI_input extends AppCompatActivity {
         btn_infj.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //INFJ = 4번
                 Intent intent = new Intent(getApplicationContext(), home.class);
+                //Home에다가 my_mbti로 id 전달
+                intent.putExtra("my_mbti", 4);
                 startActivity(intent);
             }
         });
@@ -70,7 +85,10 @@ public class MBTI_input extends AppCompatActivity {
         btn_infp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //INFP = 5번
                 Intent intent = new Intent(getApplicationContext(), home.class);
+                //Home에다가 my_mbti로 id 전달
+                intent.putExtra("my_mbti", 5);
                 startActivity(intent);
             }
         });
@@ -80,7 +98,10 @@ public class MBTI_input extends AppCompatActivity {
         btn_enfj.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //ENFJ = 6번
                 Intent intent = new Intent(getApplicationContext(), home.class);
+                //Home에다가 my_mbti로 id 전달
+                intent.putExtra("my_mbti", 6);
                 startActivity(intent);
             }
         });
@@ -90,7 +111,10 @@ public class MBTI_input extends AppCompatActivity {
         btn_enfp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //ENFP = 7번
                 Intent intent = new Intent(getApplicationContext(), home.class);
+                //Home에다가 my_mbti로 id 전달
+                intent.putExtra("my_mbti", 7);
                 startActivity(intent);
             }
         });
@@ -100,7 +124,10 @@ public class MBTI_input extends AppCompatActivity {
         btn_istj.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //ISTJ = 8번
                 Intent intent = new Intent(getApplicationContext(), home.class);
+                //Home에다가 my_mbti로 id 전달
+                intent.putExtra("my_mbti", 8);
                 startActivity(intent);
             }
         });
@@ -110,7 +137,10 @@ public class MBTI_input extends AppCompatActivity {
         btn_istp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //ISTP = 9번
                 Intent intent = new Intent(getApplicationContext(), home.class);
+                //Home에다가 my_mbti로 id 전달
+                intent.putExtra("my_mbti", 9);
                 startActivity(intent);
             }
         });
@@ -120,7 +150,10 @@ public class MBTI_input extends AppCompatActivity {
         btn_estj.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //ESTJ = 10번
                 Intent intent = new Intent(getApplicationContext(), home.class);
+                //Home에다가 my_mbti로 id 전달
+                intent.putExtra("my_mbti", 10);
                 startActivity(intent);
             }
         });
@@ -130,7 +163,10 @@ public class MBTI_input extends AppCompatActivity {
         btn_estp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //ESTP = 11번
                 Intent intent = new Intent(getApplicationContext(), home.class);
+                //Home에다가 my_mbti로 id 전달
+                intent.putExtra("my_mbti", 11);
                 startActivity(intent);
             }
         });
@@ -140,7 +176,10 @@ public class MBTI_input extends AppCompatActivity {
         btn_isfj.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //ISFJ = 12번
                 Intent intent = new Intent(getApplicationContext(), home.class);
+                //Home에다가 my_mbti로 id 전달
+                intent.putExtra("my_mbti", 12);
                 startActivity(intent);
             }
         });
@@ -150,7 +189,10 @@ public class MBTI_input extends AppCompatActivity {
         btn_isfp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //ISFP = 13번
                 Intent intent = new Intent(getApplicationContext(), home.class);
+                //Home에다가 my_mbti로 id 전달
+                intent.putExtra("my_mbti", 13);
                 startActivity(intent);
             }
         });
@@ -160,7 +202,10 @@ public class MBTI_input extends AppCompatActivity {
         btn_esfj.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //ESFJ = 14번
                 Intent intent = new Intent(getApplicationContext(), home.class);
+                //Home에다가 my_mbti로 id 전달
+                intent.putExtra("my_mbti", 14);
                 startActivity(intent);
             }
         });
@@ -170,7 +215,10 @@ public class MBTI_input extends AppCompatActivity {
         btn_esfp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //ESFP = 15번
                 Intent intent = new Intent(getApplicationContext(), home.class);
+                //Home에다가 my_mbti로 id 전달
+                intent.putExtra("my_mbti", 15);
                 startActivity(intent);
             }
         });

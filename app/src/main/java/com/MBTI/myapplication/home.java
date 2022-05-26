@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class home extends AppCompatActivity {
@@ -15,6 +16,25 @@ public class home extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        //데이터 받아오기
+        Intent intent = getIntent();
+        int my_mbti = intent.getExtras().getInt("my_mbti");
+
+        Button btn_my_mbti = (Button)findViewById(R.id.btn_my_mbti);
+        btn_my_mbti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(my_mbti == 0){ //INTJ
+                    Intent intent = new Intent(getApplicationContext(), intj_intro.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 1){ //INTP
+                    Intent intent = new Intent(getApplicationContext(), intp_intro.class);
+                    startActivity(intent);
+                }
+            }
+        });
 
         //모든 MBTI 버튼 클릭시 테스트 화면 이동
         Button btn_all_mbti = (Button)findViewById(R.id.btn_all_mbti);
