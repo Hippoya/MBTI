@@ -41,6 +41,16 @@
             android:fontFamily="@font/kotra_hope"
             android:text="INTP" />
 
+        <!--ENTJ -->
+
+        <Button
+            android:id="@+id/btn_entj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/kotra_hope"
+            android:text="ENTJ" />
+
         <!--ENTP -->
 
         <Button
@@ -51,15 +61,6 @@
             android:fontFamily="@font/kotra_hope"
             android:text="ENTP" />
 
-        <!--ENTJ -->
-
-        <Button
-            android:id="@+id/btn_entj"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
-            android:text="ENTJ" />
 
         <!--INFJ -->
 
@@ -81,45 +82,25 @@
             android:fontFamily="@font/kotra_hope"
             android:text="INFP" />
 
-        <!--ISFJ -->
+        <!--ENFJ -->
 
         <Button
-            android:id="@+id/btn_isfj"
+            android:id="@+id/btn_enfj"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/kotra_hope"
-            android:text="ISFJ" />
+            android:text="ENFJ" />
 
-        <!--ISFP -->
+        <!--ENFP -->
 
         <Button
-            android:id="@+id/btn_isfp"
+            android:id="@+id/btn_enfp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/kotra_hope"
-            android:text="ISFP" />
-
-        <!--ESFP -->
-
-        <Button
-            android:id="@+id/btn_esfp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
-            android:text="ESFP" />
-
-        <!--ESFJ -->
-
-        <Button
-            android:id="@+id/btn_esfj"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
-            android:text="ESFJ" />
+            android:text="ENFP" />
 
         <!--ISTJ -->
 
@@ -141,16 +122,6 @@
             android:fontFamily="@font/kotra_hope"
             android:text="ISTP" />
 
-        <!--ESTP -->
-
-        <Button
-            android:id="@+id/btn_estp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
-            android:text="ESTP" />
-
         <!--ESTJ -->
 
         <Button
@@ -161,35 +132,57 @@
             android:fontFamily="@font/kotra_hope"
             android:text="ESTJ" />
 
-        <!--ENFP -->
+        <!--ESTP -->
 
         <Button
-            android:id="@+id/btn_enfp"
+            android:id="@+id/btn_estp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/kotra_hope"
-            android:text="ENFP" />
+            android:text="ESTP" />
 
-        <!--ENFJ -->
+        <!--ISFJ -->
 
         <Button
-            android:id="@+id/btn_enfj"
+            android:id="@+id/btn_isfj"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/kotra_hope"
-            android:text="ENFJ" />
+            android:text="ISFJ" />
 
-        <!-- Don't Know -->
+        <!--ISFP -->
 
         <Button
-            android:id="@+id/btn_unknown"
+            android:id="@+id/btn_isfp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/kotra_hope"
-            android:text="잘모르겠어요" />
+            android:text="ISFP" />
+
+        <!--ESFJ -->
+
+        <Button
+            android:id="@+id/btn_esfj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/kotra_hope"
+            android:text="ESFJ" />
+
+        <!--ESFP -->
+
+        <Button
+            android:id="@+id/btn_esfp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/kotra_hope"
+            android:text="ESFP" />
+
+
 
     </LinearLayout>
 
