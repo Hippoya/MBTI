@@ -33,6 +33,62 @@ public class home extends AppCompatActivity {
                     Intent intent = new Intent(getApplicationContext(), intp_intro.class);
                     startActivity(intent);
                 }
+                else if(my_mbti == 2) { //ENTJ
+                    Intent intent = new Intent(getApplicationContext(), entj_intro.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 3) { //ENTP
+                    Intent intent = new Intent(getApplicationContext(), entp_intro.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 4) { //INFJ
+                    Intent intent = new Intent(getApplicationContext(), infj_intro.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 5) { //INFP
+                    Intent intent = new Intent(getApplicationContext(), infp_intro.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 6) { //ENFJ
+                    Intent intent = new Intent(getApplicationContext(), enfj_intro.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 7) { //ENFP
+                    Intent intent = new Intent(getApplicationContext(), enfp_intro.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 8) { //ISTJ
+                    Intent intent = new Intent(getApplicationContext(), istj_intro.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 9) { //ISTP
+                    Intent intent = new Intent(getApplicationContext(), istp_intro.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 10) { //ESTJ
+                    Intent intent = new Intent(getApplicationContext(), estj_intro.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 11) { //ESTP
+                    Intent intent = new Intent(getApplicationContext(), estp_intro.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 12) { //ISFJ
+                    Intent intent = new Intent(getApplicationContext(), isfj_intro.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 13) { //ISFP
+                    Intent intent = new Intent(getApplicationContext(), isfp_intro.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 14) { //ESFJ
+                    Intent intent = new Intent(getApplicationContext(), esfj_intro.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 15) { //ESFP
+                    Intent intent = new Intent(getApplicationContext(), esfp_intro.class);
+                    startActivity(intent);
+                }
             }
         });
 
