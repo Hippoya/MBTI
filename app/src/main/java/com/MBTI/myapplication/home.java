@@ -3,18 +3,30 @@ package com.MBTI.myapplication;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.MBTI.myapplication.intro.enfj_intro;
+import com.MBTI.myapplication.intro.enfp_intro;
+import com.MBTI.myapplication.intro.entj_intro;
+import com.MBTI.myapplication.intro.entp_intro;
+import com.MBTI.myapplication.intro.esfj_intro;
+import com.MBTI.myapplication.intro.esfp_intro;
+import com.MBTI.myapplication.intro.estj_intro;
+import com.MBTI.myapplication.intro.estp_intro;
+import com.MBTI.myapplication.intro.infj_intro;
+import com.MBTI.myapplication.intro.infp_intro;
 import com.MBTI.myapplication.intro.intj_intro;
 import com.MBTI.myapplication.intro.intp_intro;
+import com.MBTI.myapplication.intro.isfj_intro;
+import com.MBTI.myapplication.intro.isfp_intro;
+import com.MBTI.myapplication.intro.istj_intro;
+import com.MBTI.myapplication.intro.istp_intro;
 
 public class home extends AppCompatActivity {
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
