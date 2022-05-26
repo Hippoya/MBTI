@@ -43,7 +43,7 @@
         android:textSize="23sp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_intj_list"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:text="Button" />
