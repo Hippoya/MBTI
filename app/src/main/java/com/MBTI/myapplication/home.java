@@ -113,7 +113,7 @@ public class home extends AppCompatActivity {
     public void onBackPressed() {
         if (System.currentTimeMillis() > backKeyPressedTime + 2000) {
             backKeyPressedTime = System.currentTimeMillis();
-            toast = Toast.makeText(this, "뒤로?", Toast.LENGTH_SHORT);
+            toast = Toast.makeText(this, "종료하시겠습니까?", Toast.LENGTH_SHORT);
             toast.show();
         }
         else {
