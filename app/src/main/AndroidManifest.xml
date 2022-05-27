@@ -14,52 +14,49 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".istp_list"
+            android:name=".list.istp.istp_list"
             android:exported="false" />
         <activity
-            android:name=".istj_list"
+            android:name=".list.istj.istj_list"
             android:exported="false" />
         <activity
-            android:name=".isfp_list"
+            android:name=".list.isfp.isfp_list"
             android:exported="false" />
         <activity
-            android:name=".isfj_list"
+            android:name=".list.isfj.isfj_list"
             android:exported="false" />
         <activity
-            android:name=".intp_list"
+            android:name=".list.intp.intp_list"
             android:exported="false" />
         <activity
-            android:name=".intp"
+            android:name=".list.infp.infp_list"
             android:exported="false" />
         <activity
-            android:name=".infp_list"
+            android:name=".list.infj.infj_list"
             android:exported="false" />
         <activity
-            android:name=".infj_list"
+            android:name=".list.estp.estp_list"
             android:exported="false" />
         <activity
-            android:name=".estp_list"
+            android:name=".list.estj.estj_list"
             android:exported="false" />
         <activity
-            android:name=".estj_list"
+            android:name=".list.esfp.esfp_list"
             android:exported="false" />
         <activity
-            android:name=".esfp_list"
+            android:name=".list.esfj.esfj_list"
             android:exported="false" />
         <activity
-            android:name=".esfj_list"
+            android:name=".list.entp.entp_list"
             android:exported="false" />
         <activity
-            android:name=".entp_list"
+            android:name=".list.entj.entj_list"
             android:exported="false" />
         <activity
-            android:name=".entj_list"
+            android:name=".list.enfp.enfp_list"
             android:exported="false" />
         <activity
-            android:name=".enfp_list"
-            android:exported="false" />
-        <activity
-            android:name=".enfj_list"
+            android:name=".list.enfj.enfj_list"
             android:exported="false" />
         <activity
             android:name=".list.intj.intj1"
