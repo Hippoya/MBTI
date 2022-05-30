@@ -9,6 +9,7 @@ import android.widget.Button;
 
 import com.MBTI.myapplication.R;
 import com.MBTI.myapplication.list.entp.entp_list;
+import com.MBTI.myapplication.list.esfj.esfj_list;
 
 public class esfj_intro extends AppCompatActivity {
 
@@ -17,11 +18,11 @@ public class esfj_intro extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_esfj_intro);
 
-        Button btn_entp_list = (Button)findViewById(R.id.btn_entp_list);
-        btn_entp_list.setOnClickListener(new View.OnClickListener() {
+        Button btn_esfj_list = (Button)findViewById(R.id.btn_esfj_list);
+        btn_esfj_list.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), entp_list.class);
+                Intent intent = new Intent(getApplicationContext(), esfj_list.class);
                 startActivity(intent);
             }
         });
