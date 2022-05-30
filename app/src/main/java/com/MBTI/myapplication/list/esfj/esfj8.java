@@ -3,6 +3,8 @@ package com.MBTI.myapplication.list.esfj;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import com.MBTI.myapplication.R;
+
 
 public class esfj8 extends AppCompatActivity {
 
