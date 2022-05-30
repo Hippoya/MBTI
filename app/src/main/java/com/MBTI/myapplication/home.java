@@ -266,6 +266,18 @@ public class home extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //
+        Button btn_weather = (Button)findViewById(R.id.btn_weather);
+        btn_weather.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                String url = "https://naver.com";
+//                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                Intent intent = new Intent(getApplication(), weather.class);
+                startActivity(intent);
+            }
+        });
     }
 
     // 홈 화면에서 뒤로 가기 버튼을 2초 이내에 2번 누르면 어플 종료

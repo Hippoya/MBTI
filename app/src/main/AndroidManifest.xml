@@ -4,6 +4,8 @@
     package="com.MBTI.myapplication">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
 
     <application
         android:allowBackup="true"
@@ -30,7 +32,9 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCXJRXmcYLcQVCJr-b_w67vndwQW9_kORA" />
-
+        <activity
+            android:name=".weather"
+            android:exported="false" />
         <activity
             android:name=".all_map"
             android:exported="false"
