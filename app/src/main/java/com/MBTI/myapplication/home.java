@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.media.Image;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -254,6 +255,17 @@ public class home extends AppCompatActivity {
             }
         });
 
+        //MBTI 버튼 클릭시 테스트 화면 이동
+        Button btn_allmap = (Button)findViewById(R.id.btn_allmap);
+        btn_allmap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+//                String url = "https://naver.com";
+//                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                Intent intent = new Intent(getApplication(), all_map.class);
+                startActivity(intent);
+            }
+        });
     }
 
     // 홈 화면에서 뒤로 가기 버튼을 2초 이내에 2번 누르면 어플 종료
