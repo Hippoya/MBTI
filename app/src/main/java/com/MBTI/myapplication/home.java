@@ -6,10 +6,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -37,6 +39,7 @@ public class home extends AppCompatActivity {
 
     //MBTI 이름 변수 추가
     TextView mbti_name;
+    ImageView mbti_image;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,86 +51,100 @@ public class home extends AppCompatActivity {
         int my_mbti = intent.getExtras().getInt("my_mbti");
 
         mbti_name = (TextView)findViewById(R.id.textView);
+        mbti_image = (ImageView)findViewById(R.id.imageView);
         Typeface typeface = getResources().getFont(R.font.bmjua); //폰트 설정
 
-        //mbti별 텍스트 동적 생성
+        //mbti별 텍스트&이미지 동적 생성
         if(my_mbti == 0){
             mbti_name.setTypeface(typeface);
             mbti_name.setText("<< INTJ >>");
             mbti_name.setTextColor(Color.parseColor("#000000"));
             mbti_name.setTextSize(25);
+            mbti_image.setImageResource(R.drawable.intj);
         }
         else if(my_mbti == 1){
             mbti_name.setTypeface(typeface);
             mbti_name.setText("<< INTP >>");
             mbti_name.setTextColor(Color.parseColor("#000000"));
             mbti_name.setTextSize(25);
+            mbti_image.setImageResource(R.drawable.intp);
         }
         else if(my_mbti == 2){
             mbti_name.setTypeface(typeface);
             mbti_name.setText("<< ENTJ >>");
             mbti_name.setTextColor(Color.parseColor("#000000"));
             mbti_name.setTextSize(25);
+            mbti_image.setImageResource(R.drawable.entj);
         }
         else if(my_mbti == 3){
             mbti_name.setTypeface(typeface);
             mbti_name.setText("<< ENTP >>");
             mbti_name.setTextColor(Color.parseColor("#000000"));
             mbti_name.setTextSize(25);
+            mbti_image.setImageResource(R.drawable.entp);
         }
         else if(my_mbti == 4){
             mbti_name.setTypeface(typeface);
             mbti_name.setText("<< INFJ >>");
             mbti_name.setTextColor(Color.parseColor("#000000"));
             mbti_name.setTextSize(25);
+            mbti_image.setImageResource(R.drawable.infj);
         }
         else if(my_mbti == 5){
             mbti_name.setTypeface(typeface);
             mbti_name.setText("<< INFP >>");
             mbti_name.setTextColor(Color.parseColor("#000000"));
             mbti_name.setTextSize(25);
+            mbti_image.setImageResource(R.drawable.infp);
         }
         else if(my_mbti == 6){
             mbti_name.setTypeface(typeface);
             mbti_name.setText("<< ENFJ >>");
             mbti_name.setTextColor(Color.parseColor("#000000"));
             mbti_name.setTextSize(25);
+            mbti_image.setImageResource(R.drawable.enfj);
         }
         else if(my_mbti == 7){
             mbti_name.setTypeface(typeface);
             mbti_name.setText("<< ENFP >>");
             mbti_name.setTextColor(Color.parseColor("#000000"));
             mbti_name.setTextSize(25);
+            mbti_image.setImageResource(R.drawable.enfp);
         }
         else if(my_mbti == 8){
             mbti_name.setTypeface(typeface);
             mbti_name.setText("<< ISTJ >>");
             mbti_name.setTextColor(Color.parseColor("#000000"));
             mbti_name.setTextSize(25);
+            mbti_image.setImageResource(R.drawable.istj);
         }
         else if(my_mbti == 9){
             mbti_name.setTypeface(typeface);
             mbti_name.setText("<< ISTP >>");
             mbti_name.setTextColor(Color.parseColor("#000000"));
             mbti_name.setTextSize(25);
+            mbti_image.setImageResource(R.drawable.istp);
         }
         else if(my_mbti == 10){
             mbti_name.setTypeface(typeface);
             mbti_name.setText("<< ESTJ >>");
             mbti_name.setTextColor(Color.parseColor("#000000"));
             mbti_name.setTextSize(25);
+            mbti_image.setImageResource(R.drawable.estj);
         }
         else if(my_mbti == 11){
             mbti_name.setTypeface(typeface);
             mbti_name.setText("<< ESTP >>");
             mbti_name.setTextColor(Color.parseColor("#000000"));
             mbti_name.setTextSize(25);
+            mbti_image.setImageResource(R.drawable.estp);
         }
         else if(my_mbti == 12){
             mbti_name.setTypeface(typeface);
             mbti_name.setText("<< ISFJ >>");
             mbti_name.setTextColor(Color.parseColor("#000000"));
             mbti_name.setTextSize(25);
+            mbti_image.setImageResource(R.drawable.isfj);
 
         }
         else if(my_mbti == 13){
@@ -135,18 +152,21 @@ public class home extends AppCompatActivity {
             mbti_name.setText("<< ISFP >>");
             mbti_name.setTextColor(Color.parseColor("#000000"));
             mbti_name.setTextSize(25);
+            mbti_image.setImageResource(R.drawable.isfp);
         }
         else if(my_mbti == 14){
             mbti_name.setTypeface(typeface);
             mbti_name.setText("<< ESFJ >>");
             mbti_name.setTextColor(Color.parseColor("#000000"));
             mbti_name.setTextSize(25);
+            mbti_image.setImageResource(R.drawable.esfj);
         }
         else if(my_mbti == 15){
             mbti_name.setTypeface(typeface);
             mbti_name.setText("<< ESFP >>");
             mbti_name.setTextColor(Color.parseColor("#000000"));
             mbti_name.setTextSize(25);
+            mbti_image.setImageResource(R.drawable.esfp);
         }
 
         //mbti 종류별 데이터 간단하게 저장
