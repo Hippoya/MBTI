@@ -28,6 +28,7 @@
         android:layout_marginBottom="46dp"
         android:fontFamily="@font/bmjua"
         android:text="내 MBTI\n페이지로"
+        app:iconTint="#68CDFD"
         app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toStartOf="@+id/btn_all_mbti"
         app:layout_constraintStart_toStartOf="parent"
