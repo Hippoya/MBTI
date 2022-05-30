@@ -11,25 +11,59 @@
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_mbti_test.xml" value="0.17274569402228976" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/content_scrolling.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_all_mbti.xml" value="0.375" />
+        <entry key="app/src/main/res/layout/activity_enfj2.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/activity_enfj3.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/activity_enfj5.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/activity_enfj8.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_enfj_intro.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_enfj_list.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/activity_enfp6.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/activity_enfp7.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_enfp_intro.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_entj1.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/activity_entj7.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_entj_intro.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_entp10.xml" value="0.22395833333333334" />
+        <entry key="app/src/main/res/layout/activity_entp5.xml" value="0.22395833333333334" />
+        <entry key="app/src/main/res/layout/activity_entp6.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_entp_intro.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_esfj10.xml" value="0.22395833333333334" />
+        <entry key="app/src/main/res/layout/activity_esfj5.xml" value="0.22395833333333334" />
+        <entry key="app/src/main/res/layout/activity_esfj6.xml" value="0.22395833333333334" />
+        <entry key="app/src/main/res/layout/activity_esfj7.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_esfj_intro.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_esfj_list.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/activity_esfp1.xml" value="0.22395833333333334" />
+        <entry key="app/src/main/res/layout/activity_esfp6.xml" value="0.22395833333333334" />
+        <entry key="app/src/main/res/layout/activity_esfp7.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/activity_esfp8.xml" value="0.22395833333333334" />
+        <entry key="app/src/main/res/layout/activity_esfp9.xml" value="0.22395833333333334" />
         <entry key="app/src/main/res/layout/activity_esfp_intro.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_estj3.xml" value="0.22395833333333334" />
         <entry key="app/src/main/res/layout/activity_estj_intro.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_estp10.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/activity_estp5.xml" value="0.22395833333333334" />
         <entry key="app/src/main/res/layout/activity_estp_intro.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_infj_intro.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_infp1.xml" value="0.22395833333333334" />
+        <entry key="app/src/main/res/layout/activity_infp5.xml" value="0.22395833333333334" />
         <entry key="app/src/main/res/layout/activity_infp_intro.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_intj7.xml" value="0.22395833333333334" />
+        <entry key="app/src/main/res/layout/activity_intj8.xml" value="0.22395833333333334" />
         <entry key="app/src/main/res/layout/activity_intj_intro.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_intj_list.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_intp.xml" value="0.23802083333333332" />
+        <entry key="app/src/main/res/layout/activity_intp2.xml" value="0.22395833333333334" />
         <entry key="app/src/main/res/layout/activity_intp_intro.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_isfj_intro.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_isfp8.xml" value="0.22395833333333334" />
         <entry key="app/src/main/res/layout/activity_isfp_intro.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_istj10.xml" value="0.22395833333333334" />
+        <entry key="app/src/main/res/layout/activity_istj9.xml" value="0.22395833333333334" />
         <entry key="app/src/main/res/layout/activity_istj_intro.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_istp2.xml" value="0.22395833333333334" />
+        <entry key="app/src/main/res/layout/activity_istp6.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_istp_intro.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_mbti_input.xml" value="0.3098958333333333" />
       </map>

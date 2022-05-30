@@ -14,6 +14,486 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
+            android:name=".istp10"
+            android:exported="false" />
+        <activity
+            android:name=".istp9"
+            android:exported="false" />
+        <activity
+            android:name=".istp8"
+            android:exported="false" />
+        <activity
+            android:name=".istp7"
+            android:exported="false" />
+        <activity
+            android:name=".istp6"
+            android:exported="false" />
+        <activity
+            android:name=".istp5"
+            android:exported="false" />
+        <activity
+            android:name=".istp4"
+            android:exported="false" />
+        <activity
+            android:name=".istp3"
+            android:exported="false" />
+        <activity
+            android:name=".istp2"
+            android:exported="false" />
+        <activity
+            android:name=".istp1"
+            android:exported="false" />
+        <activity
+            android:name=".istj10"
+            android:exported="false" />
+        <activity
+            android:name=".istj9"
+            android:exported="false" />
+        <activity
+            android:name=".istj8"
+            android:exported="false" />
+        <activity
+            android:name=".istj7"
+            android:exported="false" />
+        <activity
+            android:name=".istj6"
+            android:exported="false" />
+        <activity
+            android:name=".istj5"
+            android:exported="false" />
+        <activity
+            android:name=".istj4"
+            android:exported="false" />
+        <activity
+            android:name=".istj3"
+            android:exported="false" />
+        <activity
+            android:name=".istj2"
+            android:exported="false" />
+        <activity
+            android:name=".istj1"
+            android:exported="false" />
+        <activity
+            android:name=".isfp10"
+            android:exported="false" />
+        <activity
+            android:name=".isfp9"
+            android:exported="false" />
+        <activity
+            android:name=".isfp8"
+            android:exported="false" />
+        <activity
+            android:name=".isfp7"
+            android:exported="false" />
+        <activity
+            android:name=".isfp6"
+            android:exported="false" />
+        <activity
+            android:name=".isfp5"
+            android:exported="false" />
+        <activity
+            android:name=".isfp4"
+            android:exported="false" />
+        <activity
+            android:name=".isfp3"
+            android:exported="false" />
+        <activity
+            android:name=".isfp2"
+            android:exported="false" />
+        <activity
+            android:name=".isfp1"
+            android:exported="false" />
+        <activity
+            android:name=".isfj10"
+            android:exported="false" />
+        <activity
+            android:name=".isfj9"
+            android:exported="false" />
+        <activity
+            android:name=".isfj8"
+            android:exported="false" />
+        <activity
+            android:name=".isfj7"
+            android:exported="false" />
+        <activity
+            android:name=".isfj6"
+            android:exported="false" />
+        <activity
+            android:name=".isfj5"
+            android:exported="false" />
+        <activity
+            android:name=".isfj4"
+            android:exported="false" />
+        <activity
+            android:name=".isfj3"
+            android:exported="false" />
+        <activity
+            android:name=".isfj2"
+            android:exported="false" />
+        <activity
+            android:name=".isfj1"
+            android:exported="false" />
+        <activity
+            android:name=".intp10"
+            android:exported="false" />
+        <activity
+            android:name=".intp9"
+            android:exported="false" />
+        <activity
+            android:name=".intp8"
+            android:exported="false" />
+        <activity
+            android:name=".intp7"
+            android:exported="false" />
+        <activity
+            android:name=".intp6"
+            android:exported="false" />
+        <activity
+            android:name=".intp5"
+            android:exported="false" />
+        <activity
+            android:name=".intp4"
+            android:exported="false" />
+        <activity
+            android:name=".intp3"
+            android:exported="false" />
+        <activity
+            android:name=".intp2"
+            android:exported="false" />
+        <activity
+            android:name=".intp1"
+            android:exported="false" />
+        <activity
+            android:name=".intj10"
+            android:exported="false" />
+        <activity
+            android:name=".intj9"
+            android:exported="false" />
+        <activity
+            android:name=".intj8"
+            android:exported="false" />
+        <activity
+            android:name=".intj7"
+            android:exported="false" />
+        <activity
+            android:name=".intj6"
+            android:exported="false" />
+        <activity
+            android:name=".intj5"
+            android:exported="false" />
+        <activity
+            android:name=".intj4"
+            android:exported="false" />
+        <activity
+            android:name=".intj3"
+            android:exported="false" />
+        <activity
+            android:name=".intj2"
+            android:exported="false" />
+        <activity
+            android:name=".infp10"
+            android:exported="false" />
+        <activity
+            android:name=".infp9"
+            android:exported="false" />
+        <activity
+            android:name=".infp8"
+            android:exported="false" />
+        <activity
+            android:name=".infp7"
+            android:exported="false" />
+        <activity
+            android:name=".infp6"
+            android:exported="false" />
+        <activity
+            android:name=".infp5"
+            android:exported="false" />
+        <activity
+            android:name=".infp4"
+            android:exported="false" />
+        <activity
+            android:name=".infp3"
+            android:exported="false" />
+        <activity
+            android:name=".infp2"
+            android:exported="false" />
+        <activity
+            android:name=".infp1"
+            android:exported="false" />
+        <activity
+            android:name=".infj10"
+            android:exported="false" />
+        <activity
+            android:name=".infj9"
+            android:exported="false" />
+        <activity
+            android:name=".infj8"
+            android:exported="false" />
+        <activity
+            android:name=".infj7"
+            android:exported="false" />
+        <activity
+            android:name=".infj6"
+            android:exported="false" />
+        <activity
+            android:name=".infj5"
+            android:exported="false" />
+        <activity
+            android:name=".infj4"
+            android:exported="false" />
+        <activity
+            android:name=".infj3"
+            android:exported="false" />
+        <activity
+            android:name=".infj2"
+            android:exported="false" />
+        <activity
+            android:name=".infj1"
+            android:exported="false" />
+        <activity
+            android:name=".estp10"
+            android:exported="false" />
+        <activity
+            android:name=".estp9"
+            android:exported="false" />
+        <activity
+            android:name=".estp8"
+            android:exported="false" />
+        <activity
+            android:name=".estp7"
+            android:exported="false" />
+        <activity
+            android:name=".estp6"
+            android:exported="false" />
+        <activity
+            android:name=".estp5"
+            android:exported="false" />
+        <activity
+            android:name=".estp4"
+            android:exported="false" />
+        <activity
+            android:name=".estp3"
+            android:exported="false" />
+        <activity
+            android:name=".estp2"
+            android:exported="false" />
+        <activity
+            android:name=".estp1"
+            android:exported="false" />
+        <activity
+            android:name=".estj11"
+            android:exported="false" />
+        <activity
+            android:name=".estj10"
+            android:exported="false" />
+        <activity
+            android:name=".estj9"
+            android:exported="false" />
+        <activity
+            android:name=".estj8"
+            android:exported="false" />
+        <activity
+            android:name=".estj7"
+            android:exported="false" />
+        <activity
+            android:name=".estj6"
+            android:exported="false" />
+        <activity
+            android:name=".estj5"
+            android:exported="false" />
+        <activity
+            android:name=".estj4"
+            android:exported="false" />
+        <activity
+            android:name=".estj3"
+            android:exported="false" />
+        <activity
+            android:name=".estj2"
+            android:exported="false" />
+        <activity
+            android:name=".estj1"
+            android:exported="false" />
+        <activity
+            android:name=".esfp10"
+            android:exported="false" />
+        <activity
+            android:name=".esfp9"
+            android:exported="false" />
+        <activity
+            android:name=".esfp8"
+            android:exported="false" />
+        <activity
+            android:name=".esfp7"
+            android:exported="false" />
+        <activity
+            android:name=".esfp6"
+            android:exported="false" />
+        <activity
+            android:name=".esfp5"
+            android:exported="false" />
+        <activity
+            android:name=".esfp4"
+            android:exported="false" />
+        <activity
+            android:name=".esfp3"
+            android:exported="false" />
+        <activity
+            android:name=".esfp2"
+            android:exported="false" />
+        <activity
+            android:name=".esfp1"
+            android:exported="false" />
+        <activity
+            android:name=".esfj10"
+            android:exported="false" />
+        <activity
+            android:name=".esfj9"
+            android:exported="false" />
+        <activity
+            android:name=".esfj8"
+            android:exported="false" />
+        <activity
+            android:name=".esfj7"
+            android:exported="false" />
+        <activity
+            android:name=".esfj6"
+            android:exported="false" />
+        <activity
+            android:name=".esfj5"
+            android:exported="false" />
+        <activity
+            android:name=".esfj4"
+            android:exported="false" />
+        <activity
+            android:name=".esfj3"
+            android:exported="false" />
+        <activity
+            android:name=".esfj2"
+            android:exported="false" />
+        <activity
+            android:name=".esfj1"
+            android:exported="false" />
+        <activity
+            android:name=".entp10"
+            android:exported="false" />
+        <activity
+            android:name=".entp9"
+            android:exported="false" />
+        <activity
+            android:name=".entp8"
+            android:exported="false" />
+        <activity
+            android:name=".entp7"
+            android:exported="false" />
+        <activity
+            android:name=".entp6"
+            android:exported="false" />
+        <activity
+            android:name=".entp5"
+            android:exported="false" />
+        <activity
+            android:name=".entp4"
+            android:exported="false" />
+        <activity
+            android:name=".entp3"
+            android:exported="false" />
+        <activity
+            android:name=".entp2"
+            android:exported="false" />
+        <activity
+            android:name=".entp1"
+            android:exported="false" />
+        <activity
+            android:name=".entj10"
+            android:exported="false" />
+        <activity
+            android:name=".entj9"
+            android:exported="false" />
+        <activity
+            android:name=".entj8"
+            android:exported="false" />
+        <activity
+            android:name=".entj7"
+            android:exported="false" />
+        <activity
+            android:name=".entj6"
+            android:exported="false" />
+        <activity
+            android:name=".entj5"
+            android:exported="false" />
+        <activity
+            android:name=".entj4"
+            android:exported="false" />
+        <activity
+            android:name=".entj3"
+            android:exported="false" />
+        <activity
+            android:name=".entj2"
+            android:exported="false" />
+        <activity
+            android:name=".entj1"
+            android:exported="false" />
+        <activity
+            android:name=".enfp10"
+            android:exported="false" />
+        <activity
+            android:name=".enfp9"
+            android:exported="false" />
+        <activity
+            android:name=".enfp8"
+            android:exported="false" />
+        <activity
+            android:name=".enfp7"
+            android:exported="false" />
+        <activity
+            android:name=".enfp6"
+            android:exported="false" />
+        <activity
+            android:name=".enfp5"
+            android:exported="false" />
+        <activity
+            android:name=".enfp4"
+            android:exported="false" />
+        <activity
+            android:name=".enfp3"
+            android:exported="false" />
+        <activity
+            android:name=".enfp2"
+            android:exported="false" />
+        <activity
+            android:name=".enfp1"
+            android:exported="false" />
+        <activity
+            android:name=".enfj10"
+            android:exported="false" />
+        <activity
+            android:name=".enfj9"
+            android:exported="false" />
+        <activity
+            android:name=".enfj8"
+            android:exported="false" />
+        <activity
+            android:name=".enfj7"
+            android:exported="false" />
+        <activity
+            android:name=".enfj6"
+            android:exported="false" />
+        <activity
+            android:name=".enfj5"
+            android:exported="false" />
+        <activity
+            android:name=".enfj4"
+            android:exported="false" />
+        <activity
+            android:name=".enfj3"
+            android:exported="false" />
+        <activity
+            android:name=".enfj2"
+            android:exported="false" />
+        <activity
+            android:name=".enfj1"
+            android:exported="false" />
+        <activity
             android:name=".list.istp.istp_list"
             android:exported="false" />
         <activity
