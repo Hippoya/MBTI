@@ -2,10 +2,13 @@ package com.MBTI.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -26,7 +29,12 @@ import com.MBTI.myapplication.intro.isfp_intro;
 import com.MBTI.myapplication.intro.istj_intro;
 import com.MBTI.myapplication.intro.istp_intro;
 
+import java.util.ArrayList;
+
 public class home extends AppCompatActivity {
+
+    //MBTI 이름 변수 추가
+    TextView mbti_name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +45,43 @@ public class home extends AppCompatActivity {
         Intent intent = getIntent();
         int my_mbti = intent.getExtras().getInt("my_mbti");
 
+        mbti_name = (TextView)findViewById(R.id.textView);
+
+        //mbti별 텍스트 동적 생성
+        if(my_mbti == 0){
+            mbti_name.setText("INTJ");}
+        else if(my_mbti == 1){
+            mbti_name.setText("INTP");}
+        else if(my_mbti == 2){
+            mbti_name.setText("ENTJ");}
+        else if(my_mbti == 3){
+            mbti_name.setText("ENTP");}
+        else if(my_mbti == 4){
+            mbti_name.setText("INFJ");}
+        else if(my_mbti == 5){
+            mbti_name.setText("INFP");}
+        else if(my_mbti == 6){
+            mbti_name.setText("ENFJ");}
+        else if(my_mbti == 7){
+            mbti_name.setText("ENFP");}
+        else if(my_mbti == 8){
+            mbti_name.setText("ISTJ");}
+        else if(my_mbti == 9){
+            mbti_name.setText("ISTP");}
+        else if(my_mbti == 10){
+            mbti_name.setText("ESTJ");}
+        else if(my_mbti == 11){
+            mbti_name.setText("ESTP");}
+        else if(my_mbti == 12){
+            mbti_name.setText("ISFJ");}
+        else if(my_mbti == 13){
+            mbti_name.setText("ISFP");}
+        else if(my_mbti == 14){
+            mbti_name.setText("ESFJ");}
+        else if(my_mbti == 15){
+            mbti_name.setText("ESFP");}
+
+        //mbti 종류별 데이터 간단하게 저장
         Button btn_my_mbti = (Button)findViewById(R.id.btn_my_mbti);
         btn_my_mbti.setOnClickListener(new View.OnClickListener() {
             @Override
