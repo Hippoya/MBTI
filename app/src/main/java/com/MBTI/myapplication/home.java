@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -46,40 +48,106 @@ public class home extends AppCompatActivity {
         int my_mbti = intent.getExtras().getInt("my_mbti");
 
         mbti_name = (TextView)findViewById(R.id.textView);
+        Typeface typeface = getResources().getFont(R.font.bmjua); //폰트 설정
 
         //mbti별 텍스트 동적 생성
         if(my_mbti == 0){
-            mbti_name.setText("INTJ");}
+            mbti_name.setTypeface(typeface);
+            mbti_name.setText("<< INTJ >>");
+            mbti_name.setTextColor(Color.parseColor("#000000"));
+            mbti_name.setTextSize(25);
+        }
         else if(my_mbti == 1){
-            mbti_name.setText("INTP");}
+            mbti_name.setTypeface(typeface);
+            mbti_name.setText("<< INTP >>");
+            mbti_name.setTextColor(Color.parseColor("#000000"));
+            mbti_name.setTextSize(25);
+        }
         else if(my_mbti == 2){
-            mbti_name.setText("ENTJ");}
+            mbti_name.setTypeface(typeface);
+            mbti_name.setText("<< ENTJ >>");
+            mbti_name.setTextColor(Color.parseColor("#000000"));
+            mbti_name.setTextSize(25);
+        }
         else if(my_mbti == 3){
-            mbti_name.setText("ENTP");}
+            mbti_name.setTypeface(typeface);
+            mbti_name.setText("<< ENTP >>");
+            mbti_name.setTextColor(Color.parseColor("#000000"));
+            mbti_name.setTextSize(25);
+        }
         else if(my_mbti == 4){
-            mbti_name.setText("INFJ");}
+            mbti_name.setTypeface(typeface);
+            mbti_name.setText("<< INFJ >>");
+            mbti_name.setTextColor(Color.parseColor("#000000"));
+            mbti_name.setTextSize(25);
+        }
         else if(my_mbti == 5){
-            mbti_name.setText("INFP");}
+            mbti_name.setTypeface(typeface);
+            mbti_name.setText("<< INFP >>");
+            mbti_name.setTextColor(Color.parseColor("#000000"));
+            mbti_name.setTextSize(25);
+        }
         else if(my_mbti == 6){
-            mbti_name.setText("ENFJ");}
+            mbti_name.setTypeface(typeface);
+            mbti_name.setText("<< ENFJ >>");
+            mbti_name.setTextColor(Color.parseColor("#000000"));
+            mbti_name.setTextSize(25);
+        }
         else if(my_mbti == 7){
-            mbti_name.setText("ENFP");}
+            mbti_name.setTypeface(typeface);
+            mbti_name.setText("<< ENFP >>");
+            mbti_name.setTextColor(Color.parseColor("#000000"));
+            mbti_name.setTextSize(25);
+        }
         else if(my_mbti == 8){
-            mbti_name.setText("ISTJ");}
+            mbti_name.setTypeface(typeface);
+            mbti_name.setText("<< ISTJ >>");
+            mbti_name.setTextColor(Color.parseColor("#000000"));
+            mbti_name.setTextSize(25);
+        }
         else if(my_mbti == 9){
-            mbti_name.setText("ISTP");}
+            mbti_name.setTypeface(typeface);
+            mbti_name.setText("<< ISTP >>");
+            mbti_name.setTextColor(Color.parseColor("#000000"));
+            mbti_name.setTextSize(25);
+        }
         else if(my_mbti == 10){
-            mbti_name.setText("ESTJ");}
+            mbti_name.setTypeface(typeface);
+            mbti_name.setText("<< ESTJ >>");
+            mbti_name.setTextColor(Color.parseColor("#000000"));
+            mbti_name.setTextSize(25);
+        }
         else if(my_mbti == 11){
-            mbti_name.setText("ESTP");}
+            mbti_name.setTypeface(typeface);
+            mbti_name.setText("<< ESTP >>");
+            mbti_name.setTextColor(Color.parseColor("#000000"));
+            mbti_name.setTextSize(25);
+        }
         else if(my_mbti == 12){
-            mbti_name.setText("ISFJ");}
+            mbti_name.setTypeface(typeface);
+            mbti_name.setText("<< ISFJ >>");
+            mbti_name.setTextColor(Color.parseColor("#000000"));
+            mbti_name.setTextSize(25);
+
+        }
         else if(my_mbti == 13){
-            mbti_name.setText("ISFP");}
+            mbti_name.setTypeface(typeface);
+            mbti_name.setText("<< ISFP >>");
+            mbti_name.setTextColor(Color.parseColor("#000000"));
+            mbti_name.setTextSize(25);
+        }
         else if(my_mbti == 14){
-            mbti_name.setText("ESFJ");}
+            mbti_name.setTypeface(typeface);
+            mbti_name.setText("<< ESFJ >>");
+            mbti_name.setTextColor(Color.parseColor("#000000"));
+            mbti_name.setTextSize(25);
+        }
         else if(my_mbti == 15){
-            mbti_name.setText("ESFP");}
+            mbti_name.setTypeface(typeface);
+            mbti_name.setText("<< ESFP >>");
+            mbti_name.setTextColor(Color.parseColor("#000000"));
+            mbti_name.setTextSize(25);
+        }
 
         //mbti 종류별 데이터 간단하게 저장
         Button btn_my_mbti = (Button)findViewById(R.id.btn_my_mbti);
