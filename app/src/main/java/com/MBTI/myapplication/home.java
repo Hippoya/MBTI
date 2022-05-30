@@ -10,6 +10,7 @@ import android.media.Image;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -37,13 +38,15 @@ import java.util.ArrayList;
 
 public class home extends AppCompatActivity {
 
-    //MBTI 이름 변수 추가
+    //MBTI 이름, 이미지 변수 추가
     TextView mbti_name;
     ImageView mbti_image;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        //상태바 제거
         setContentView(R.layout.activity_home);
 
         //데이터 받아오기
