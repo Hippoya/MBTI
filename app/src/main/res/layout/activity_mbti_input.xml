@@ -9,17 +9,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/main_input"
+        android:background="#F6F1D3"
         android:gravity="center"
         android:orientation="vertical">
-
+        <!--android:background="@drawable/main_input"-->
         <!--INTJ -->
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/bmjua"
             android:layout_marginTop="40dp"
+            android:fontFamily="@font/bmjua"
             android:text="당신의 MBTI를 선택해주세요!"
             android:textColor="#000000"
             android:textSize="25sp" />
@@ -182,7 +182,6 @@
             android:layout_marginTop="20dp"
             android:fontFamily="@font/bmjua"
             android:text="ESFP" />
-
 
 
     </LinearLayout>
