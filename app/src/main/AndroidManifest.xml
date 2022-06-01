@@ -3,6 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.MBTI.myapplication">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,6 +17,508 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCXJRXmcYLcQVCJr-b_w67vndwQW9_kORA" />
+        <activity
+            android:name=".weather"
+            android:exported="false" />
+        <activity
+            android:name=".all_map"
+            android:exported="false"
+            android:label="@string/title_activity_all_map" />
+        <activity
+            android:name=".list.istp.istp10"
+            android:exported="false" />
+        <activity
+            android:name=".list.istp.istp9"
+            android:exported="false" />
+        <activity
+            android:name=".list.istp.istp8"
+            android:exported="false" />
+        <activity
+            android:name=".list.istp.istp7"
+            android:exported="false" />
+        <activity
+            android:name=".list.istp.istp6"
+            android:exported="false" />
+        <activity
+            android:name=".list.istp.istp5"
+            android:exported="false" />
+        <activity
+            android:name=".list.istp.istp4"
+            android:exported="false" />
+        <activity
+            android:name=".list.istp.istp3"
+            android:exported="false" />
+        <activity
+            android:name=".list.istp.istp2"
+            android:exported="false" />
+        <activity
+            android:name=".list.istp.istp1"
+            android:exported="false" />
+        <activity
+            android:name=".list.istj.istj10"
+            android:exported="false" />
+        <activity
+            android:name=".list.istj.istj9"
+            android:exported="false" />
+        <activity
+            android:name=".list.istj.istj8"
+            android:exported="false" />
+        <activity
+            android:name=".list.istj.istj7"
+            android:exported="false" />
+        <activity
+            android:name=".list.istj.istj6"
+            android:exported="false" />
+        <activity
+            android:name=".list.istj.istj5"
+            android:exported="false" />
+        <activity
+            android:name=".list.istj.istj4"
+            android:exported="false" />
+        <activity
+            android:name=".list.istj.istj3"
+            android:exported="false" />
+        <activity
+            android:name=".list.istj.istj2"
+            android:exported="false" />
+        <activity
+            android:name=".list.istj.istj1"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfp.isfp10"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfp.isfp9"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfp.isfp8"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfp.isfp7"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfp.isfp6"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfp.isfp5"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfp.isfp4"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfp.isfp3"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfp.isfp2"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfp.isfp1"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfj.isfj10"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfj.isfj9"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfj.isfj8"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfj.isfj7"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfj.isfj6"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfj.isfj5"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfj.isfj4"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfj.isfj3"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfj.isfj2"
+            android:exported="false" />
+        <activity
+            android:name=".list.isfj.isfj1"
+            android:exported="false" />
+        <activity
+            android:name=".list.intp.intp10"
+            android:exported="false" />
+        <activity
+            android:name=".list.intp.intp9"
+            android:exported="false" />
+        <activity
+            android:name=".list.intp.intp8"
+            android:exported="false" />
+        <activity
+            android:name=".list.intp.intp7"
+            android:exported="false" />
+        <activity
+            android:name=".list.intp.intp6"
+            android:exported="false" />
+        <activity
+            android:name=".list.intp.intp5"
+            android:exported="false" />
+        <activity
+            android:name=".list.intp.intp4"
+            android:exported="false" />
+        <activity
+            android:name=".list.intp.intp3"
+            android:exported="false" />
+        <activity
+            android:name=".list.intp.intp2"
+            android:exported="false" />
+        <activity
+            android:name=".list.intp.intp1"
+            android:exported="false" />
+        <activity
+            android:name=".list.intj.intj10"
+            android:exported="false" />
+        <activity
+            android:name=".list.intj.intj9"
+            android:exported="false" />
+        <activity
+            android:name=".list.intj.intj8"
+            android:exported="false" />
+        <activity
+            android:name=".list.intj.intj7"
+            android:exported="false" />
+        <activity
+            android:name=".list.intj.intj6"
+            android:exported="false" />
+        <activity
+            android:name=".list.intj.intj5"
+            android:exported="false" />
+        <activity
+            android:name=".list.intj.intj4"
+            android:exported="false" />
+        <activity
+            android:name=".list.intj.intj3"
+            android:exported="false" />
+        <activity
+            android:name=".list.intj.intj2"
+            android:exported="false" />
+        <activity
+            android:name=".list.infp.infp10"
+            android:exported="false" />
+        <activity
+            android:name=".list.infp.infp9"
+            android:exported="false" />
+        <activity
+            android:name=".list.infp.infp8"
+            android:exported="false" />
+        <activity
+            android:name=".list.infp.infp7"
+            android:exported="false" />
+        <activity
+            android:name=".list.infp.infp6"
+            android:exported="false" />
+        <activity
+            android:name=".list.infp.infp5"
+            android:exported="false" />
+        <activity
+            android:name=".list.infp.infp4"
+            android:exported="false" />
+        <activity
+            android:name=".list.infp.infp3"
+            android:exported="false" />
+        <activity
+            android:name=".list.infp.infp2"
+            android:exported="false" />
+        <activity
+            android:name=".list.infp.infp1"
+            android:exported="false" />
+        <activity
+            android:name=".list.infj.infj10"
+            android:exported="false" />
+        <activity
+            android:name=".list.infj.infj9"
+            android:exported="false" />
+        <activity
+            android:name=".list.infj.infj8"
+            android:exported="false" />
+        <activity
+            android:name=".list.infj.infj7"
+            android:exported="false" />
+        <activity
+            android:name=".list.infj.infj6"
+            android:exported="false" />
+        <activity
+            android:name=".list.infj.infj5"
+            android:exported="false" />
+        <activity
+            android:name=".list.infj.infj4"
+            android:exported="false" />
+        <activity
+            android:name=".list.infj.infj3"
+            android:exported="false" />
+        <activity
+            android:name=".list.infj.infj2"
+            android:exported="false" />
+        <activity
+            android:name=".list.infj.infj1"
+            android:exported="false" />
+        <activity
+            android:name=".list.estp.estp10"
+            android:exported="false" />
+        <activity
+            android:name=".list.estp.estp9"
+            android:exported="false" />
+        <activity
+            android:name=".list.estp.estp8"
+            android:exported="false" />
+        <activity
+            android:name=".list.estp.estp7"
+            android:exported="false" />
+        <activity
+            android:name=".list.estp.estp6"
+            android:exported="false" />
+        <activity
+            android:name=".list.estp.estp5"
+            android:exported="false" />
+        <activity
+            android:name=".list.estp.estp4"
+            android:exported="false" />
+        <activity
+            android:name=".list.estp.estp3"
+            android:exported="false" />
+        <activity
+            android:name=".list.estp.estp2"
+            android:exported="false" />
+        <activity
+            android:name=".list.estp.estp1"
+            android:exported="false" />
+        <activity
+            android:name=".list.estj.estj11"
+            android:exported="false" />
+        <activity
+            android:name=".list.estj.estj10"
+            android:exported="false" />
+        <activity
+            android:name=".list.estj.estj9"
+            android:exported="false" />
+        <activity
+            android:name=".list.estj.estj8"
+            android:exported="false" />
+        <activity
+            android:name=".list.estj.estj7"
+            android:exported="false" />
+        <activity
+            android:name=".list.estj.estj6"
+            android:exported="false" />
+        <activity
+            android:name=".list.estj.estj5"
+            android:exported="false" />
+        <activity
+            android:name=".list.estj.estj4"
+            android:exported="false" />
+        <activity
+            android:name=".list.estj.estj3"
+            android:exported="false" />
+        <activity
+            android:name=".list.estj.estj2"
+            android:exported="false" />
+        <activity
+            android:name=".list.estj.estj1"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfp.esfp10"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfp.esfp9"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfp.esfp8"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfp.esfp7"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfp.esfp6"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfp.esfp5"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfp.esfp4"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfp.esfp3"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfp.esfp2"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfp.esfp1"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfj.esfj10"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfj.esfj9"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfj.esfj8"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfj.esfj7"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfj.esfj6"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfj.esfj5"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfj.esfj4"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfj.esfj3"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfj.esfj2"
+            android:exported="false" />
+        <activity
+            android:name=".list.esfj.esfj1"
+            android:exported="false" />
+        <activity
+            android:name=".list.entp.entp10"
+            android:exported="false" />
+        <activity
+            android:name=".list.entp.entp9"
+            android:exported="false" />
+        <activity
+            android:name=".list.entp.entp8"
+            android:exported="false" />
+        <activity
+            android:name=".list.entp.entp7"
+            android:exported="false" />
+        <activity
+            android:name=".list.entp.entp6"
+            android:exported="false" />
+        <activity
+            android:name=".list.entp.entp5"
+            android:exported="false" />
+        <activity
+            android:name=".list.entp.entp4"
+            android:exported="false" />
+        <activity
+            android:name=".list.entp.entp3"
+            android:exported="false" />
+        <activity
+            android:name=".list.entp.entp2"
+            android:exported="false" />
+        <activity
+            android:name=".list.entp.entp1"
+            android:exported="false" />
+        <activity
+            android:name=".list.entj.entj10"
+            android:exported="false" />
+        <activity
+            android:name=".list.entj.entj9"
+            android:exported="false" />
+        <activity
+            android:name=".list.entj.entj8"
+            android:exported="false" />
+        <activity
+            android:name=".list.entj.entj7"
+            android:exported="false" />
+        <activity
+            android:name=".list.entj.entj6"
+            android:exported="false" />
+        <activity
+            android:name=".list.entj.entj5"
+            android:exported="false" />
+        <activity
+            android:name=".list.entj.entj4"
+            android:exported="false" />
+        <activity
+            android:name=".list.entj.entj3"
+            android:exported="false" />
+        <activity
+            android:name=".list.entj.entj2"
+            android:exported="false" />
+        <activity
+            android:name=".list.entj.entj1"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfp.enfp10"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfp.enfp9"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfp.enfp8"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfp.enfp7"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfp.enfp6"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfp.enfp5"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfp.enfp4"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfp.enfp3"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfp.enfp2"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfp.enfp1"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfj.enfj10"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfj.enfj9"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfj.enfj8"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfj.enfj7"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfj.enfj6"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfj.enfj5"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfj.enfj4"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfj.enfj3"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfj.enfj2"
+            android:exported="false" />
+        <activity
+            android:name=".list.enfj.enfj1"
+            android:exported="false" />
         <activity
             android:name=".list.istp.istp_list"
             android:exported="false" />

@@ -9,17 +9,18 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/main_input"
+        android:background="#F6F1D3"
         android:gravity="center"
         android:orientation="vertical">
-
+        <!--android:background="@drawable/main_input"-->
         <!--INTJ -->
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/kotra_hope"
-            android:text="당신의 mbti를 선택해주세요!"
+            android:layout_marginTop="80dp"
+            android:fontFamily="@font/bmjua"
+            android:text="당신의 MBTI를 선택해주세요!"
             android:textColor="#000000"
             android:textSize="25sp" />
 
@@ -28,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
+            android:fontFamily="@font/bmjua"
             android:text="INTJ" />
 
         <!--INTP -->
@@ -38,7 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
+            android:fontFamily="@font/bmjua"
             android:text="INTP" />
 
         <!--ENTJ -->
@@ -48,7 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
+            android:fontFamily="@font/bmjua"
             android:text="ENTJ" />
 
         <!--ENTP -->
@@ -58,7 +59,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
+            android:fontFamily="@font/bmjua"
             android:text="ENTP" />
 
 
@@ -69,7 +70,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
+            android:fontFamily="@font/bmjua"
             android:text="INFJ" />
 
         <!--INFP -->
@@ -79,7 +80,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
+            android:fontFamily="@font/bmjua"
             android:text="INFP" />
 
         <!--ENFJ -->
@@ -89,7 +90,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
+            android:fontFamily="@font/bmjua"
             android:text="ENFJ" />
 
         <!--ENFP -->
@@ -99,7 +100,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
+            android:fontFamily="@font/bmjua"
             android:text="ENFP" />
 
         <!--ISTJ -->
@@ -109,7 +110,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
+            android:fontFamily="@font/bmjua"
             android:text="ISTJ" />
 
         <!--ISTP -->
@@ -119,7 +120,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
+            android:fontFamily="@font/bmjua"
             android:text="ISTP" />
 
         <!--ESTJ -->
@@ -129,7 +130,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
+            android:fontFamily="@font/bmjua"
             android:text="ESTJ" />
 
         <!--ESTP -->
@@ -139,7 +140,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
+            android:fontFamily="@font/bmjua"
             android:text="ESTP" />
 
         <!--ISFJ -->
@@ -149,7 +150,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
+            android:fontFamily="@font/bmjua"
             android:text="ISFJ" />
 
         <!--ISFP -->
@@ -159,7 +160,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
+            android:fontFamily="@font/bmjua"
             android:text="ISFP" />
 
         <!--ESFJ -->
@@ -169,7 +170,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
+            android:fontFamily="@font/bmjua"
             android:text="ESFJ" />
 
         <!--ESFP -->
@@ -177,11 +178,11 @@
         <Button
             android:id="@+id/btn_esfp"
             android:layout_width="wrap_content"
+            android:layout_marginBottom="80dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/kotra_hope"
+            android:fontFamily="@font/bmjua"
             android:text="ESFP" />
-
 
 
     </LinearLayout>
