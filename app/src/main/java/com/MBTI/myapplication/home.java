@@ -44,27 +44,6 @@ public class home extends AppCompatActivity {
         //상태바 제거
         setContentView(R.layout.activity_home);
 
-        // 연습 시작
-        String test = "http://59.15.92.92/MediumServer/SelectAllPost.php";
-        URLConnector task = new URLConnector(test);
-
-        task.start();
-
-        try{
-            task.join();
-            System.out.println("waiting... for result");
-        }
-        catch(InterruptedException e){
-
-        }
-
-        String result = task.getResult();
-
-        System.out.println(result);
-
-
-        // 끝
-
         //데이터 받아오기
         Intent intent = getIntent();
         int my_mbti = intent.getExtras().getInt("my_mbti");

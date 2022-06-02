@@ -4,7 +4,6 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_all_mbti.xml" value="0.5446153846153846" />
-        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_intj1.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_intj_list.xml" value="0.490787269681742" />
         <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_weather.xml" value="0.5494791666666666" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/font/fomt.xml" value="0.25462962962962965" />
@@ -23,6 +22,7 @@
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_home.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_infj_intro.xml" value="0.17274569402228976" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_infp_intro.xml" value="0.17274569402228976" />
+        <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_intj1.xml" value="0.20969202898550723" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_intj_intro.xml" value="0.25" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_intp_intro.xml" value="0.17274569402228976" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_istj_intro.xml" value="0.17274569402228976" />
