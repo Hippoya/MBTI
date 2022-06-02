@@ -2,19 +2,14 @@ package com.MBTI.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
-import android.media.Image;
-import android.net.Uri;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -35,8 +30,6 @@ import com.MBTI.myapplication.intro.isfp_intro;
 import com.MBTI.myapplication.intro.istj_intro;
 import com.MBTI.myapplication.intro.istp_intro;
 
-import java.util.ArrayList;
-
 public class home extends AppCompatActivity {
 
     //MBTI 이름, 이미지 변수 추가
@@ -46,9 +39,31 @@ public class home extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         //상태바 제거
         setContentView(R.layout.activity_home);
+
+        // 연습 시작
+        String test = "http://59.15.92.92/MediumServer/SelectAllPost.php";
+        URLConnector task = new URLConnector(test);
+
+        task.start();
+
+        try{
+            task.join();
+            System.out.println("waiting... for result");
+        }
+        catch(InterruptedException e){
+
+        }
+
+        String result = task.getResult();
+
+        System.out.println(result);
+
+
+        // 끝
 
         //데이터 받아오기
         Intent intent = getIntent();
