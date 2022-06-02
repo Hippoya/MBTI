@@ -6,9 +6,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-
     <application
-        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -17,6 +15,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
+        android:usesCleartextTraffic="true"
         tools:targetApi="31">
 
         <!--
@@ -33,9 +32,56 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCXJRXmcYLcQVCJr-b_w67vndwQW9_kORA" />
+
         <activity
-            android:name=".weather"
+            android:name=".weather.esfp_weather"
             android:exported="false" />
+        <activity
+            android:name=".weather.esfj_weather"
+            android:exported="false" />
+        <activity
+            android:name=".weather.isfp_weather"
+            android:exported="false" />
+        <activity
+            android:name=".weather.isfj_weather"
+            android:exported="false" />
+        <activity
+            android:name=".weather.estp_weather"
+            android:exported="false" />
+        <activity
+            android:name=".weather.estj_weather"
+            android:exported="false" />
+        <activity
+            android:name=".weather.istp_weather"
+            android:exported="false" />
+        <activity
+            android:name=".weather.istj_weather"
+            android:exported="false" />
+        <activity
+            android:name=".weather.enfp_weather"
+            android:exported="false" />
+        <activity
+            android:name=".weather.enfj_weather"
+            android:exported="false" />
+        <activity
+            android:name=".weather.infp_weather"
+            android:exported="false" />
+        <activity
+            android:name=".weather.infj_weather"
+            android:exported="false" />
+        <activity
+            android:name=".weather.entp_weather"
+            android:exported="false" />
+        <activity
+            android:name=".weather.entj_weather"
+            android:exported="false" />
+        <activity
+            android:name=".weather.intp_weather"
+            android:exported="false" />
+        <activity
+            android:name=".weather.intj_weather"
+            android:exported="false" />
+
         <activity
             android:name=".all_map"
             android:exported="false"

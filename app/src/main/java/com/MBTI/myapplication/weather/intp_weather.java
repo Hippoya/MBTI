@@ -1,4 +1,4 @@
-package com.MBTI.myapplication;
+package com.MBTI.myapplication.weather;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,8 +14,9 @@ import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Timer;
+import com.MBTI.myapplication.R;
 
-public class weather extends AppCompatActivity {
+public class intp_weather extends AppCompatActivity {
 
     Timer timer;
 
@@ -64,8 +65,8 @@ public class weather extends AppCompatActivity {
         String base_date = real_time.format(time);
 
         String base_time = "0500";
-        String nx = "55";
-        String ny = "127";
+        String nx = "81";
+        String ny = "83";
 
         String queryUrl = "http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?serviceKey="+serviceKey+
                 "&numOfRows="+numOfRows+"&pageNo="+pageNo+"&base_date="+base_date+"&base_time="+base_time+"&nx="+nx+"&ny="+ny;

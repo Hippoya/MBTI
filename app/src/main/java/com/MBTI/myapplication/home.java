@@ -44,6 +44,27 @@ public class home extends AppCompatActivity {
         //상태바 제거
         setContentView(R.layout.activity_home);
 
+        // 연습 시작
+//        String test = "http://59.15.92.92/MediumServer/SelectAllPost.php";
+//        URLConnector task = new URLConnector(test);
+//
+//        task.start();
+//
+//        try{
+//            task.join();
+//            System.out.println("waiting... for result");
+//        }
+//        catch(InterruptedException e){
+//
+//        }
+//
+//        String result = task.getResult();
+//
+//        System.out.println(result);
+
+
+        // 끝
+
         //데이터 받아오기
         Intent intent = getIntent();
         int my_mbti = intent.getExtras().getInt("my_mbti");
@@ -167,6 +188,78 @@ public class home extends AppCompatActivity {
             mbti_image.setImageResource(R.drawable.esfp);
         }
 
+        //mbti 종류별 날씨
+        Button btn_weather = (Button)findViewById(R.id.btn_weather);
+        btn_weather.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                if(my_mbti == 0){ //INTJ
+                    Intent intent = new Intent(getApplication(), com.MBTI.myapplication.weather.intj_weather.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 1){ //INTP
+                    Intent intent = new Intent(getApplication(), com.MBTI.myapplication.weather.intp_weather.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 2) { //ENTJ
+                    Intent intent = new Intent(getApplication(), com.MBTI.myapplication.weather.entj_weather.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 3) { //ENTP
+                    Intent intent = new Intent(getApplication(), com.MBTI.myapplication.weather.entp_weather.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 4) { //INFJ
+                    Intent intent = new Intent(getApplication(), com.MBTI.myapplication.weather.infj_weather.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 5) { //INFP
+                    Intent intent = new Intent(getApplication(), com.MBTI.myapplication.weather.infp_weather.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 6) { //ENFJ
+                    Intent intent = new Intent(getApplication(), com.MBTI.myapplication.weather.enfj_weather.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 7) { //ENFP
+                    Intent intent = new Intent(getApplication(), com.MBTI.myapplication.weather.enfp_weather.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 8) { //ISTJ
+                    Intent intent = new Intent(getApplication(), com.MBTI.myapplication.weather.istj_weather.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 9) { //ISTP
+                    Intent intent = new Intent(getApplication(), com.MBTI.myapplication.weather.istp_weather.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 10) { //ESTJ
+                    Intent intent = new Intent(getApplication(), com.MBTI.myapplication.weather.estj_weather.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 11) { //ESTP
+                    Intent intent = new Intent(getApplication(), com.MBTI.myapplication.weather.estp_weather.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 12) { //ISFJ
+                    Intent intent = new Intent(getApplication(), com.MBTI.myapplication.weather.isfj_weather.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 13) { //ISFP
+                    Intent intent = new Intent(getApplication(), com.MBTI.myapplication.weather.isfp_weather.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 14) { //ESFJ
+                    Intent intent = new Intent(getApplication(), com.MBTI.myapplication.weather.esfj_weather.class);
+                    startActivity(intent);
+                }
+                else if(my_mbti == 15) { //ESFP
+                    Intent intent = new Intent(getApplication(), com.MBTI.myapplication.weather.esfp_weather.class);
+                    startActivity(intent);
+                }
+            }
+        });
+
         //mbti 종류별 데이터 간단하게 저장
         Button btn_my_mbti = (Button)findViewById(R.id.btn_my_mbti);
         btn_my_mbti.setOnClickListener(new View.OnClickListener() {
@@ -262,16 +355,10 @@ public class home extends AppCompatActivity {
         });
 
         //
-        Button btn_weather = (Button)findViewById(R.id.btn_weather);
-        btn_weather.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                String url = "https://naver.com";
+        //                String url = "https://naver.com";
 //                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-                Intent intent = new Intent(getApplication(), weather.class);
-                startActivity(intent);
-            }
-        });
+
+
     }
 
     // 홈 화면에서 뒤로 가기 버튼을 2초 이내에 2번 누르면 어플 종료
