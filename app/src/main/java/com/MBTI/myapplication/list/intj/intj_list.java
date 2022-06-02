@@ -59,6 +59,8 @@ public class intj_list extends AppCompatActivity {
         }
         catch(InterruptedException e)
         {
+            System.out.println("X");
+
         }
         int t1 = 0;
         String t2 = null;
