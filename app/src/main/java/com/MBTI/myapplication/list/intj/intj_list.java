@@ -49,7 +49,7 @@ public class intj_list extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intj_list);
 
-        String page = "http://59.15.92.92/PHP_connection.php";
+        String page = "http://59.15.92.92/intj.php";
         URLConnector task = new URLConnector(page);
 
         task.start();
@@ -59,11 +59,22 @@ public class intj_list extends AppCompatActivity {
         }
         catch(InterruptedException e)
         {
-            System.out.println("X");
-
         }
-        int t1 = 0;
-        String t2 = null;
+
+//        ArrayList<<>> jArr = new ArrayList<>();
+
+        int mbti_type = 0;
+        String attraction_name = null;
+        String image_address = null;
+        String attraction_address = null;
+        Double latitude = 0.0;
+        Double longitude = 0.0;
+        String attraction_explain = null;
+        String attraction_page_address = null;
+        JSONObject jo = null;
+        ArrayList<String> strArr = new ArrayList<>();
+        ArrayList<Integer> intArr = new ArrayList<>();
+        ArrayList<Double> doubleArr = new ArrayList<>();
 
         String result = task.getResult();
         try{
@@ -73,9 +84,27 @@ public class intj_list extends AppCompatActivity {
 
             for (int i = 0; i < ja.length(); i++)
             {
-                JSONObject jo = ja.getJSONObject(i);
-                t1 = jo.getInt("1");
-                t2 = jo.getString("2");
+                jo = ja.getJSONObject(i);
+
+                strArr.add(jo.getString("attraction_name"));
+                strArr.add(jo.getString("image_address"));
+                strArr.add(jo.getString("attraction_address"));
+                strArr.add(jo.getString("attraction_explain"));
+                strArr.add(jo.getString("attraction_page_address"));
+
+                intArr.add(jo.getInt("mbti_type"));
+
+                doubleArr.add(jo.getDouble("latitude"));
+                doubleArr.add(jo.getDouble("longitude"));
+
+//                mbti_type = jo.getInt("mbti_type");
+//                attraction_name = jo.getString("attraction_name");
+//                image_address = jo.getString("image_address");
+//                attraction_address = jo.getString("attraction_address");
+//                latitude = jo.getDouble("latitude");
+//                longitude = jo.getDouble("longitude");
+//                attraction_explain = jo.getString("attraction_explain");
+//                attraction_page_address = jo.getString("attraction_page_address");
             }
         }
         catch(JSONException e)
@@ -84,8 +113,14 @@ public class intj_list extends AppCompatActivity {
         }
 
 
-        System.out.println("MBTI : " + t1 + ", name : " + t2);
-
+//        System.out.println("1 : " + mbti_type);
+//        System.out.println("2 : " + attraction_name);
+//        System.out.println("3 : " + image_address);
+//        System.out.println("4 : " + attraction_address);
+//        System.out.println("5 : " + latitude);
+//        System.out.println("6 : " + longitude);
+//        System.out.println("7 : " + attraction_explain);
+//        System.out.println("8 : " + attraction_page_address);
 
 //        System.out.println(result);
         listView = findViewById(R.id.intj_list);
@@ -101,7 +136,7 @@ public class intj_list extends AppCompatActivity {
 
 
         List<String> list = new ArrayList<>();
-        list.add(t2);
+        list.add("1");
 //        list.add("불국사");
 //
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list);
@@ -110,30 +145,32 @@ public class intj_list extends AppCompatActivity {
 //        showList();
 
 
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+//                String data = (String) adapterView.getItemAtPosition(position);
+
+                Intent intent;
+
+                switch(position)
+                {
+                    case 0:
+                        intent = new Intent(getApplicationContext(), intj1.class);
+                        intent.putExtra("sVal", strArr);
+                        startActivity(intent);
+                        break;
+                }
+
+
+
+            }
+        });
+
 
 
 //        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, personList[]);
 
 
-//        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-//            @Override
-//            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-////                String data = (String) adapterView.getItemAtPosition(position);
-//
-//                Intent intent;
-//
-//                switch(position)
-//                {
-//                    case 0:
-//                        intent = new Intent(getApplicationContext(), intj1.class);
-//                        startActivity(intent);
-//                        break;
-//                }
-//
-//
-//
-//            }
-//        });
     }
 
 //    public void showList() {

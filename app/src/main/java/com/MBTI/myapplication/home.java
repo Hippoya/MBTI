@@ -45,22 +45,22 @@ public class home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         // 연습 시작
-        String test = "http://59.15.92.92/MediumServer/SelectAllPost.php";
-        URLConnector task = new URLConnector(test);
-
-        task.start();
-
-        try{
-            task.join();
-            System.out.println("waiting... for result");
-        }
-        catch(InterruptedException e){
-
-        }
-
-        String result = task.getResult();
-
-        System.out.println(result);
+//        String test = "http://59.15.92.92/MediumServer/SelectAllPost.php";
+//        URLConnector task = new URLConnector(test);
+//
+//        task.start();
+//
+//        try{
+//            task.join();
+//            System.out.println("waiting... for result");
+//        }
+//        catch(InterruptedException e){
+//
+//        }
+//
+//        String result = task.getResult();
+//
+//        System.out.println(result);
 
 
         // 끝
