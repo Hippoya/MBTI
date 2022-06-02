@@ -7,7 +7,7 @@
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/font/font.xml" value="0.25462962962962965" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.15859375" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.130451415455241" />
-        <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_all_mbti.xml" value="0.22" />
+        <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_all_mbti.xml" value="0.17274569402228976" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_enfj_intro.xml" value="0.17274569402228976" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_enfj_list.xml" value="0.17274569402228976" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_enfp_intro.xml" value="0.17274569402228976" />
@@ -48,6 +48,7 @@
         <entry key="app/src/main/res/layout/activity_istj_intro.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_istp_intro.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_mbti_input.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/activity_weather.xml" value="0.3098958333333333" />
       </map>
     </option>
   </component>
