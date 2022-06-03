@@ -49,7 +49,7 @@ public class intj_list extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intj_list);
 
-        String page = "http://59.15.92.92/intj.php";
+        String page = "http://59.15.74.148/intj.php";
         URLConnector task = new URLConnector(page);
 
         task.start();
@@ -73,8 +73,8 @@ public class intj_list extends AppCompatActivity {
         String attraction_page_address = null;
         JSONObject jo = null;
         ArrayList<String> strArr = new ArrayList<>();
-        ArrayList<Integer> intArr = new ArrayList<>();
-        ArrayList<Double> doubleArr = new ArrayList<>();
+//        ArrayList<Integer> intArr = new ArrayList<>();
+//        ArrayList<Double> doubleArr = new ArrayList<>();
 
         String result = task.getResult();
         try{
@@ -92,10 +92,10 @@ public class intj_list extends AppCompatActivity {
                 strArr.add(jo.getString("attraction_explain"));
                 strArr.add(jo.getString("attraction_page_address"));
 
-                intArr.add(jo.getInt("mbti_type"));
-
-                doubleArr.add(jo.getDouble("latitude"));
-                doubleArr.add(jo.getDouble("longitude"));
+//                intArr.add(jo.getInt("mbti_type"));
+//
+//                doubleArr.add(jo.getDouble("latitude"));
+//                doubleArr.add(jo.getDouble("longitude"));
 
 //                mbti_type = jo.getInt("mbti_type");
 //                attraction_name = jo.getString("attraction_name");
