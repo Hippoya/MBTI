@@ -67,13 +67,13 @@ public class intj_weather extends AppCompatActivity {
         StringBuffer buffer=new StringBuffer();
         buffer.append("현재 경주의 날씨는 ?\n\n\n");
 
-        String rain_percent = null;
-        String rain_form = null;
-        String humidity = null;
-        String sky = null;
-        String min = null;
-        String max = null;
-        String wind = null;
+        String rain_percent = "기상청 홈페이지 오류";
+        String rain_form = "기상청 홈페이지 오류";
+        String humidity = "기상청 홈페이지 오류";
+        String sky = "기상청 홈페이지 오류";
+        String min = "기상청 홈페이지 오류";
+        String max = "기상청 홈페이지 오류";
+        String wind = "기상청 홈페이지 오류";
 
 
         String serviceKey = "duHMQZOKZGzTIv5g53NZWvrm9Bk6wilKzrxDX4DJwKcusk4PB38LrjMur7o9fNzJzdJPtLsU9qgEegTekYUCjw==";
