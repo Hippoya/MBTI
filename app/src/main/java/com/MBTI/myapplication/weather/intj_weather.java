@@ -67,13 +67,13 @@ public class intj_weather extends AppCompatActivity {
         StringBuffer buffer=new StringBuffer();
         buffer.append("현재 경주의 날씨는 ?\n\n\n");
 
-        String rain_percent = "기상청 홈페이지 오류";
-        String rain_form = "기상청 홈페이지 오류";
-        String humidity = "기상청 홈페이지 오류";
-        String sky = "기상청 홈페이지 오류";
-        String min = "기상청 홈페이지 오류";
-        String max = "기상청 홈페이지 오류";
-        String wind = "기상청 홈페이지 오류";
+        String rain_percent = null;
+        String rain_form = null;
+        String humidity = null;
+        String sky = null;
+        String min = null;
+        String max = null;
+        String wind = null;
 
 
         String serviceKey = "duHMQZOKZGzTIv5g53NZWvrm9Bk6wilKzrxDX4DJwKcusk4PB38LrjMur7o9fNzJzdJPtLsU9qgEegTekYUCjw==";
@@ -115,8 +115,6 @@ public class intj_weather extends AppCompatActivity {
                         if(tag.equals("item")) ; // 첫번째 검색결과
                         else if (tag.equals("category"))
                         {
-//                            xpp.next();
-//                            buffer.append(xpp.getText());
                             xpp.next();
 
                             if (xpp.getText().equals("TMN"))
@@ -199,36 +197,41 @@ public class intj_weather extends AppCompatActivity {
             // TODO Auto-generated catch blocke.printStackTrace();
         }
 
-        if (sky.equals("0") || sky.equals("1") || sky.equals("2") || sky.equals("3") || sky.equals("4") || sky.equals("5"))
-            buffer.append("하늘 상태  :   " + "맑음" + "\n\n");
-        else if (sky.equals("6") || sky.equals("7") || sky.equals("8"))
-            buffer.append("하늘 상태  :   " + "구름 많음" + "\n\n");
-        else
-            buffer.append("하늘 상태  :   " + "흐림" + "\n\n");
-        buffer.append("일 최저 기온  :   " + min +  " 도\n\n");
-        buffer.append("일 최고 기온  :   " + max + " 도\n\n");
-        buffer.append("강수 확률  :   " + rain_percent + " %\n\n");
+        if (sky == null || min == null || max == null || rain_percent == null || rain_form == null || humidity == null || wind == null)
+        {
+            buffer.append("기상청 홈페이지 오류\n잠시 후 다시 시도해주세요");
+        }
+        else {
+            if (sky.equals("0") || sky.equals("1") || sky.equals("2") || sky.equals("3") || sky.equals("4") || sky.equals("5"))
+                buffer.append("하늘 상태  :   " + "맑음" + "\n\n");
+            else if (sky.equals("6") || sky.equals("7") || sky.equals("8"))
+                buffer.append("하늘 상태  :   " + "구름 많음" + "\n\n");
+            else if (sky.equals("9") || sky.equals("10"))
+                buffer.append("하늘 상태  :   " + "흐림" + "\n\n");
+            buffer.append("일 최저 기온  :   " + min + " 도\n\n");
+            buffer.append("일 최고 기온  :   " + max + " 도\n\n");
+            buffer.append("강수 확률  :   " + rain_percent + " %\n\n");
 
-        if (rain_form.equals("0"))
-            buffer.append("강수 형태  :   " + "없음" + "\n\n");
-        else if (rain_form.equals("1"))
-            buffer.append("강수 형태  :   " + "비" + "\n\n");
-        else if (rain_form.equals("2"))
-            buffer.append("강수 형태  :   " + "비+눈(진눈깨비)" + "\n\n");
-        else if (rain_form.equals("3"))
-            buffer.append("강수 형태  :   " + "눈" + "\n\n");
-        else if (rain_form.equals("4"))
-            buffer.append("강수 형태  :   " + "소나기" + "\n\n");
-        else if (rain_form.equals("5"))
-            buffer.append("강수 형태  :   " + "빗방울" + "\n\n");
-        else if (rain_form.equals("6"))
-            buffer.append("강수 형태  :   " + "빗방울+눈날림" + "\n\n");
-        else if (rain_form.equals("7"))
-            buffer.append("강수 형태  :   " + "눈날림" + "\n\n");
+            if (rain_form.equals("0"))
+                buffer.append("강수 형태  :   " + "없음" + "\n\n");
+            else if (rain_form.equals("1"))
+                buffer.append("강수 형태  :   " + "비" + "\n\n");
+            else if (rain_form.equals("2"))
+                buffer.append("강수 형태  :   " + "비+눈(진눈깨비)" + "\n\n");
+            else if (rain_form.equals("3"))
+                buffer.append("강수 형태  :   " + "눈" + "\n\n");
+            else if (rain_form.equals("4"))
+                buffer.append("강수 형태  :   " + "소나기" + "\n\n");
+            else if (rain_form.equals("5"))
+                buffer.append("강수 형태  :   " + "빗방울" + "\n\n");
+            else if (rain_form.equals("6"))
+                buffer.append("강수 형태  :   " + "빗방울+눈날림" + "\n\n");
+            else if (rain_form.equals("7"))
+                buffer.append("강수 형태  :   " + "눈날림" + "\n\n");
 
-        buffer.append("습도  :   " + humidity + " %\n\n");
-        buffer.append("풍속  :   " + wind + " m/s\n\n");
-
+            buffer.append("습도  :   " + humidity + " %\n\n");
+            buffer.append("풍속  :   " + wind + " m/s\n\n");
+        }
         return buffer.toString();//StringBuffer 문자열 객체 반환
     }
 }
