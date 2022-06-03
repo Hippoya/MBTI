@@ -16,6 +16,9 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.Timer;
 import com.MBTI.myapplication.R;
@@ -81,8 +84,9 @@ public class intj_weather extends AppCompatActivity {
         String pageNo = "1";
 
         SimpleDateFormat real_time = new SimpleDateFormat("yyyyMMdd");
-        Date time = new Date();
-        String base_date = real_time.format(time);
+        LocalDate korea = LocalDate.now(ZoneId.of("Asia/Seoul"));
+        System.out.println("korea = " + korea);
+        String base_date = korea.format(DateTimeFormatter.BASIC_ISO_DATE);
 
         String base_time = "0200";
         String nx = "100";  //
