@@ -66,7 +66,7 @@ public class estp_list extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_estp_list);
-        String page = "http://59.15.74.148/enfj.php";
+        String page = "http://59.15.74.148/estp.php";
         URLConnector task = new URLConnector(page);
 
         task.start();
