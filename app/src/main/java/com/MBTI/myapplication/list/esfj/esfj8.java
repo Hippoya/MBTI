@@ -36,7 +36,7 @@ public class esfj8 extends AppCompatActivity {
         Intent intent = getIntent();
         ArrayList<String> info = (ArrayList<String>)intent.getSerializableExtra("sVal");
 
-        System.out.println("image string : " + info.get(1+n));
+
         image = findViewById(R.id.image_esfj8);
 
         new esfj8.DownloadFilesTask().execute(info.get(1+n));
