@@ -7,12 +7,28 @@
     tools:context=".weather.enfj_weather">
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/text1_enfj_weather"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
-        android:text="enfj님에게 추천드리는 여행지, 제주는 지금"
+        android:layout_marginTop="120dp"
+        android:fontFamily="@font/bmjua"
+        android:gravity="center"
+        android:text="오늘 제주의 날씨는 ?"
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text2_enfj_weather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="220dp"
+        android:fontFamily="@font/bmjua"
+        android:gravity="center"
+        android:text=""
+        android:textSize="25sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

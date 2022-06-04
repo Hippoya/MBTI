@@ -33,7 +33,6 @@ public class intp9 extends AppCompatActivity {
         Intent intent = getIntent();
         ArrayList<String> info = (ArrayList<String>)intent.getSerializableExtra("sVal");
 
-        System.out.println("image string : " + info.get(1+n));
         image = findViewById(R.id.image_intp9);
 
         new intp9.DownloadFilesTask().execute(info.get(1+n));

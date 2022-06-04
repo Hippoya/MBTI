@@ -246,7 +246,6 @@ public class all_map extends FragmentActivity implements OnMapReadyCallback {
             for (int i = 0; i < ja.length(); i++)
             {
                 jo = ja.getJSONObject(i);
-                System.out.println(jo);
                 if (jo.getInt("mbti_type") == 0)
                 {
                     strArr0.add(jo.getString("attraction_name"));
@@ -427,7 +426,6 @@ public class all_map extends FragmentActivity implements OnMapReadyCallback {
             public void onInfoWindowClick(@NonNull Marker marker) {
                 Intent intent = null;
 
-                System.out.println("id : " + marker.getId());
 
                 // INTJ 0 ~ 9
                 if (marker.getId().equals("m0")) {
@@ -1112,22 +1110,5 @@ public class all_map extends FragmentActivity implements OnMapReadyCallback {
             }
         });
 
-//        mMap.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
-//            @Override
-//            public boolean onMarkerClick(@NonNull Marker marker) {
-////                if (marker.getId())
-//                Intent intent = null;
-//                String id = String.format("m%d", p);
-//
-//                if (marker.getId().equals(id)){
-//                    intent = new Intent(getApplicationContext(), intj1.class);
-//                    intent.putExtra("sVal", strArr);
-//                    startActivity(intent);
-//                }
-////                    System.out.println("name : " + marker.getTitle() + "id : " + marker.getId());
-//
-//                return false;
-//            }
-//        });
     }
 }

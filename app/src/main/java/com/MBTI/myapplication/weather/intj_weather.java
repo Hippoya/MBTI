@@ -1,14 +1,12 @@
 package com.MBTI.myapplication.weather;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.content.res.ResourcesCompat;
 
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
 import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserFactory;
 
@@ -19,8 +17,6 @@ import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
-import java.util.Date;
-import java.util.Timer;
 import com.MBTI.myapplication.R;
 
 
@@ -32,13 +28,9 @@ public class intj_weather extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_weather);
-        Typeface typeFace = getResources().getFont(R.font.bmjua);
+        setContentView(R.layout.activity_intj_weather);
 
-        weather_text = (TextView)findViewById(R.id.weather_text);
-        weather_text.setTextSize(25);
-        weather_text.setTypeface(typeFace);
-        weather_text.setGravity(Gravity.CENTER);
+        weather_text = (TextView)findViewById(R.id.text2_intj_weather);
 
 
         new Thread(new Runnable() {
@@ -68,7 +60,6 @@ public class intj_weather extends AppCompatActivity {
 
     String getWeatherXmlData(){
         StringBuffer buffer=new StringBuffer();
-        buffer.append("현재 경주의 날씨는 ?\n\n\n");
 
         String rain_percent = null;
         String rain_form = null;
@@ -85,7 +76,6 @@ public class intj_weather extends AppCompatActivity {
 
         SimpleDateFormat real_time = new SimpleDateFormat("yyyyMMdd");
         LocalDate korea = LocalDate.now(ZoneId.of("Asia/Seoul"));
-        System.out.println("korea = " + korea);
         String base_date = korea.format(DateTimeFormatter.BASIC_ISO_DATE);
 
         String base_time = "0200";
@@ -94,7 +84,7 @@ public class intj_weather extends AppCompatActivity {
 
         String queryUrl = "http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?serviceKey="+serviceKey+
                 "&numOfRows="+numOfRows+"&pageNo="+pageNo+"&base_date="+base_date+"&base_time="+base_time+"&nx="+nx+"&ny="+ny;
-        System.out.println(queryUrl);
+//        System.out.println(queryUrl);
         try {
             URL url= new URL(queryUrl);//문자열로 된 요청 url을 URL 객체로 생성.
             InputStream is= url.openStream(); //url위치로 입력스트림 연결
@@ -104,7 +94,6 @@ public class intj_weather extends AppCompatActivity {
             xpp.setInput( new InputStreamReader(is, "UTF-8") ); //inputstream 으로부터 xml 입력받기
 
             String tag;
-            int i =0;
             xpp.next();
             int eventType= xpp.getEventType();
 
