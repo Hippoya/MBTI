@@ -7,7 +7,7 @@
     tools:context=".list.isfp.isfp6">
 
     <ImageView
-        android:id="@+id/image_isfp1"
+        android:id="@+id/image_isfp6"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:scaleType="fitXY"
