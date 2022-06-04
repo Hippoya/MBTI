@@ -17,11 +17,12 @@
 
     <TextView
         android:id="@+id/text_address_infp5"
-        android:layout_width="wrap_content"
+        android:layout_width="355dp"
         android:layout_height="wrap_content"
         android:text="TextView"
         android:fontFamily="@font/bmjua"
         android:textSize="20sp"
+        android:gravity="center_horizontal"
         app:layout_constraintBottom_toTopOf="@+id/text_infp5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
