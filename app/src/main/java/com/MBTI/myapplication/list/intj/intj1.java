@@ -28,29 +28,30 @@ public class intj1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intj1);
+        int n = 0;
 
         Intent intent = getIntent();
         ArrayList<String> info = (ArrayList<String>)intent.getSerializableExtra("sVal");
 
-        System.out.println("image string : " + info.get(1));
+        System.out.println("image string : " + info.get(1+n));
         image = findViewById(R.id.image_intj1);
 
-        new DownloadFilesTask().execute(info.get(1));
+        new DownloadFilesTask().execute(info.get(1+n));
 
         TextView text0 = (TextView) findViewById(R.id.text_name_intj1);
-        text0.setText(info.get(0));
+        text0.setText(info.get(0+n));
 
         TextView text1 = (TextView) findViewById(R.id.text_address_intj1);
-        text1.setText(info.get(2));
+        text1.setText(info.get(2+n));
 
         TextView text2 = (TextView) findViewById(R.id.text_intj1);
-        text2.setText(info.get(3));
+        text2.setText(info.get(3+n));
 
         Button btn1 = (Button) findViewById(R.id.btn_intj1);
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url = info.get(4);
+                String url = info.get(4+n);
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 startActivity(intent);
             }
