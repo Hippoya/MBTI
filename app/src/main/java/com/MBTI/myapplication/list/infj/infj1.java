@@ -14,13 +14,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.MBTI.myapplication.R;
-import com.MBTI.myapplication.list.entj.entj1;
-import com.MBTI.myapplication.list.entp.entp1;
-import com.MBTI.myapplication.list.esfj.esfj1;
-import com.MBTI.myapplication.list.esfp.esfp1;
-import com.MBTI.myapplication.list.estj.estj1;
-import com.MBTI.myapplication.list.estp.estp1;
-import com.MBTI.myapplication.list.intj.intj1;
 
 import java.io.IOException;
 import java.net.MalformedURLException;
@@ -36,6 +29,7 @@ public class infj1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_infj1);
         int n = 0;
+
 
         Intent intent = getIntent();
         ArrayList<String> info = (ArrayList<String>)intent.getSerializableExtra("sVal");
