@@ -3,13 +3,34 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_all_map.xml" value="0.5536458333333333" />
         <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_all_mbti.xml" value="0.553125" />
         <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_enfj2.xml" value="0.5536458333333333" />
         <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_enfj_list.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_enfj_weather.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_enfp_weather.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_entj_weather.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_entp_weather.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_esfj_weather.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_esfp_weather.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_estj_weather.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_estp_weather.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_infj_list.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_infj_weather.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_infp_weather.xml" value="0.5536458333333333" />
         <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_intj1.xml" value="0.36614583333333334" />
         <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_intj_list.xml" value="0.490787269681742" />
         <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_intj_weather.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_intp_weather.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_isfj_weather.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_isfp_intro.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_isfp_list.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_isfp_weather.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_istj_weather.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_istp_weather.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_mbti_input.xml" value="0.5536458333333333" />
         <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_weather.xml" value="0.5494791666666666" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/menu/menu_test_scroll.xml" value="0.5536458333333333" />
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_enfj1.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_enfj10.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_enfj2.xml" value="0.3619791666666667" />
@@ -55,72 +76,11 @@
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_entp9.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_entp_intro.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_entp_list.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfj1.xml" value="0.1" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfj10.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfj2.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfj3.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfj4.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfj5.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfj6.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfj7.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfj8.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfj9.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfj_list.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfp1.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfp10.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfp2.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfp3.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfp4.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfp5.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfp6.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfp7.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfp8.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfp9.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfp_list.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estj1.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estj10.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estj11.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estj2.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estj3.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estj4.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estj5.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estj6.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estj7.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estj8.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estj9.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estj_list.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estp1.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estp10.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estp2.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estp3.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estp4.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estp5.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estp6.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estp7.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estp8.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estp9.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estp_list.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infj1.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infj10.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infj2.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infj3.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infj4.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infj5.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infj6.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infj7.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infj8.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infj9.xml" value="0.1" />
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infj_list.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infp1.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infp10.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infp2.xml" value="0.18489583333333334" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infp3.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infp4.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infp5.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infp6.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infp7.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infp8.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infp9.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infp_list.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_intj1.xml" value="0.2638888888888889" />
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_intj10.xml" value="0.3619791666666667" />
@@ -144,49 +104,9 @@
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_intp8.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_intp9.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_intp_list.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfj1.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfj10.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfj2.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfj3.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfj4.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfj5.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfj6.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfj7.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfj8.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfj9.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfj_list.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfp1.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfp10.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfp2.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfp3.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfp4.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfp5.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfp6.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfp7.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfp8.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfp9.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfp_list.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istj1.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istj10.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istj2.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istj3.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istj4.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istj5.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istj6.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istj7.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istj8.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istj9.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istj_list.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istp1.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istp10.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istp2.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istp3.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istp4.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istp5.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istp6.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istp7.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istp8.xml" value="0.3619791666666667" />
-        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istp9.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istp_list.xml" value="0.3619791666666667" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/font/fomt.xml" value="0.25462962962962965" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/font/font.xml" value="0.25462962962962965" />
