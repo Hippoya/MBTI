@@ -139,7 +139,7 @@ public class intj_list extends AppCompatActivity {
             list.add(strArr.get(i));
         }
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.list_font, list);
         listView.setAdapter(adapter);
 
 
