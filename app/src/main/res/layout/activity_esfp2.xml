@@ -17,7 +17,8 @@
 
     <TextView
         android:id="@+id/text_address_esfp2"
-        android:layout_width="wrap_content"
+        android:layout_width="355dp"
+        android:gravity="center_horizontal"
         android:layout_height="wrap_content"
         android:text="TextView"
         android:fontFamily="@font/bmjua"
