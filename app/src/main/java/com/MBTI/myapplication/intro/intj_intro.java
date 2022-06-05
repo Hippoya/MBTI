@@ -10,6 +10,8 @@ import android.widget.Button;
 
 import com.MBTI.myapplication.R;
 import com.MBTI.myapplication.list.intj.intj_list;
+import com.MBTI.myapplication.weather.enfj_weather;
+import com.MBTI.myapplication.weather.intj_weather;
 
 public class intj_intro extends AppCompatActivity {
 
@@ -25,6 +27,15 @@ public class intj_intro extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), intj_list.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn_intj_weather = (Button)findViewById(R.id.btn_intj_weather);
+        btn_intj_weather.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), intj_weather.class);
                 startActivity(intent);
             }
         });
