@@ -68,7 +68,7 @@
         android:layout_marginEnd="56dp"
         android:layout_marginBottom="118dp"
         android:fontFamily="@font/bmjua"
-        android:text="여행지별 날씨\n 확인하기"
+        android:text="여행지 날씨\n확인하기"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_allmap"
