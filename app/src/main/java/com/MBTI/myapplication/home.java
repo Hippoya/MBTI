@@ -29,6 +29,7 @@ import com.MBTI.myapplication.intro.isfj_intro;
 import com.MBTI.myapplication.intro.isfp_intro;
 import com.MBTI.myapplication.intro.istj_intro;
 import com.MBTI.myapplication.intro.istp_intro;
+import com.MBTI.myapplication.weather.intj_weather;
 
 public class home extends AppCompatActivity {
 
@@ -194,7 +195,7 @@ public class home extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if(my_mbti == 0){ //INTJ
-                    Intent intent = new Intent(getApplication(), com.MBTI.myapplication.weather.intj_weather.class);
+                    Intent intent = new Intent(getApplication(), intj_weather.class);
                     startActivity(intent);
                 }
                 else if(my_mbti == 1){ //INTP

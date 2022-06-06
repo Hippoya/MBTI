@@ -20,17 +20,17 @@ public class intj_weather extends AppCompatActivity {
 
     Timer timer;
 
-//    TextView weather_text;
-//    TextView home_text;
+    TextView weather_text;
+    TextView home_text;
     String weather_data;
-//    String home_data;
+    String home_data;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_weather);
 
-        //weather_text = (TextView)findViewById(R.id.weather_text);
+        weather_text = (TextView)findViewById(R.id.weather_text);
 
         new Thread(new Runnable() {
             @Override
@@ -41,13 +41,13 @@ public class intj_weather extends AppCompatActivity {
                 // 날씨 API
                 weather_data= getWeatherXmlData();
 
-//                runOnUiThread(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        // TODO Auto-generated method stub
-//                        weather_text.setText(weather_data); //TextView에 문자열  data 출력
-//                    }
-//                });
+                runOnUiThread(new Runnable() {
+                    @Override
+                    public void run() {
+                        // TODO Auto-generated method stub
+                        weather_text.setText(weather_data); //TextView에 문자열  data 출력
+                    }
+                });
             }
         }).start();
     }
@@ -57,8 +57,8 @@ public class intj_weather extends AppCompatActivity {
         StringBuffer buffer=new StringBuffer();
 
         String serviceKey = "duHMQZOKZGzTIv5g53NZWvrm9Bk6wilKzrxDX4DJwKcusk4PB38LrjMur7o9fNzJzdJPtLsU9qgEegTekYUCjw==";
-        String numOfRows = "10";
-        int pageNo = 1;
+        String numOfRows = "250";
+        String pageNo = "1";
 
         SimpleDateFormat real_time = new SimpleDateFormat("yyyyMMdd");
         Date time = new Date();
@@ -92,18 +92,31 @@ public class intj_weather extends AppCompatActivity {
 
                     case XmlPullParser.START_TAG:
                         tag= xpp.getName();//태그 이름 얻어오기
-                        System.out.println(tag);
+//                        System.out.println(tag);
 
-                        if(tag.equals("item")) ; // 첫번째 검색결과
+//                        if (tag.equals("fcstTime"))
+//                        {
+//                        }
+
+
+                        if(tag.equals("item"));     // 첫번째 검색결과
+//                        else if(tag.equals("fcstValue")) {
+//                            i++;
+//                            if (i == )
+//                        }
+
                         else if(tag.equals("fcstValue")) {
+//                            xpp.next();
+//                            System.out.println(xpp.getText());
+
                             i++;
-                            if (i == 1) {
-                                buffer.append("강수확률 : ");
+                            if (i == 5) {
+                                buffer.append("풍속 : ");
                                 xpp.next();
-                                buffer.append(xpp.getText()+"%");
+                                buffer.append(xpp.getText()+"m/s");
                                 buffer.append("\n");
                             }
-                            if (i == 2) {
+                            if (i == 7) {
                                 buffer.append("강수형태 : ");
                                 xpp.next();
                                 if(xpp.getText().equals("0")){
@@ -139,28 +152,28 @@ public class intj_weather extends AppCompatActivity {
                                     buffer.append("\n");
                                 }
                             }
-                            if(i==3){
-                                buffer.append("6시간 강수량 : ");
-                                xpp.next();
-                                buffer.append(xpp.getText()+"mm");
-                                buffer.append("\n");
-                            }
-                            if(i==4){
+                            if(i==11){
                                 buffer.append("습도 : ");
                                 xpp.next();
                                 buffer.append(xpp.getText()+"%");
                                 buffer.append("\n");
                             }
-                            if(i==5){
-                                buffer.append("6시간 신적설 : ");
+                            if(i==6){
+                                buffer.append("하늘 상태 : ");
                                 xpp.next();
-                                buffer.append(xpp.getText()+"cm");
-                                //   buffer.append("\n");
+                                buffer.append(xpp.getText());
+                                buffer.append("\n");
                             }
-                            if(i==7){
-                                buffer.append("3시간 기온 : ");
+                            if(i==8){
+                                buffer.append("강수 확률 : ");
                                 xpp.next();
-                                buffer.append(xpp.getText()+"℃");
+                                buffer.append(xpp.getText()+"%");//"℃");
+                                buffer.append("\n");
+                            }
+                            if(i==49){
+                                buffer.append("일 최저 기온 : ");
+                                xpp.next();
+                                buffer.append(xpp.getText()+"°C");//"℃");
                                 buffer.append("\n");
                             }
                         }
