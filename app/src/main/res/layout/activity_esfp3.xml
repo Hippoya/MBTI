@@ -6,4 +6,68 @@
     android:layout_height="match_parent"
     tools:context=".list.esfp.esfp3">
 
+    <ImageView
+        android:id="@+id/image_esfp3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="141dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/text_address_esfp3"
+        android:layout_width="355dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:fontFamily="@font/bmjua"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_esfp3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_esfp3"
+        app:layout_constraintVertical_bias="0.681" />
+
+    <TextView
+        android:id="@+id/text_esfp3"
+        android:layout_width="349dp"
+        android:layout_height="212dp"
+        android:fontFamily="@font/bmjua"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/image_esfp3"
+        app:layout_constraintVertical_bias="0.732" />
+
+    <Button
+        android:id="@+id/btn_esfp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="관련 페이지 가기"
+        android:fontFamily="@font/bmjua"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_esfp3"
+        app:layout_constraintVertical_bias="0.473" />
+
+    <TextView
+        android:id="@+id/text_name_esfp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:fontFamily="@font/bmjua"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/text_address_esfp3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_esfp3" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

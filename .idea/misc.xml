@@ -4,14 +4,55 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_all_mbti.xml" value="0.5446153846153846" />
-        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_intj1.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_enfj_intro.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_enfp_intro.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_entj_intro.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_entp_intro.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_esfj_intro.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_esfp_intro.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_estj_intro.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_estp_intro.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_home.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_infj_intro.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_infp_intro.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_intj_intro.xml" value="0.5536458333333333" />
         <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_intj_list.xml" value="0.490787269681742" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_intp_intro.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_isfj_intro.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_isfp_intro.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_istj_intro.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_istp_intro.xml" value="0.5536458333333333" />
         <entry key="..\:/Users/HOME/Documents/GitHub/MBTI/app/src/main/res/layout/activity_weather.xml" value="0.5494791666666666" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_all_map.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_all_mbti.xml" value="0.2777777777777778" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_enfj_intro.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_enfp_intro.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_entj_intro.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_entp_intro.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfj_intro.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_esfp_intro.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estj_intro.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_estp_intro.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_home.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infj_intro.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_infp_intro.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_intj_intro.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_intp_intro.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfj_intro.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_isfp_intro.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istj_intro.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istp_intro.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istp_list.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_istp_weather.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_main.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/activity_mbti_input.xml" value="0.3578125" />
+        <entry key="..\:/Users/anyan/OneDrive/문서/GitHub/MBTI/app/src/main/res/layout/list_font.xml" value="0.3578125" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/font/fomt.xml" value="0.25462962962962965" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/font/font.xml" value="0.25462962962962965" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout-w1240dp/content_scrolling.xml" value="0.15859375" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout-w936dp/content_scrolling.xml" value="0.130451415455241" />
-        <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_all_mbti.xml" value="0.17274569402228976" />
+        <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_all_map.xml" value="0.21467391304347827" />
+        <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_all_mbti.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_enfj_intro.xml" value="0.17274569402228976" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_enfj_list.xml" value="0.17274569402228976" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_enfp_intro.xml" value="0.17274569402228976" />
@@ -23,48 +64,37 @@
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_home.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_infj_intro.xml" value="0.17274569402228976" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_infp_intro.xml" value="0.17274569402228976" />
+        <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_intj1.xml" value="0.20969202898550723" />
+        <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_intj_intro.xml" value="0.25" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_intp_intro.xml" value="0.17274569402228976" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_istj_intro.xml" value="0.17274569402228976" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_istp_intro.xml" value="0.34813084112149534" />
+        <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_istp_list.xml" value="0.21467391304347827" />
+        <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_istp_weather.xml" value="0.21467391304347827" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.322463768115942" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_mbti_button.xml" value="0.17274569402228976" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_mbti_input.xml" value="0.322463768115942" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_mbti_test.xml" value="0.17274569402228976" />
         <entry key="..\:/Users/hanah/AndroidStudioProjects/MyApplication/app/src/main/res/layout/content_scrolling.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_all_map.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_all_mbti.xml" value="0.23802083333333332" />
-        <entry key="app/src/main/res/layout/activity_enfj2.xml" value="0.23802083333333332" />
-        <entry key="app/src/main/res/layout/activity_enfj5.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_enfj_intro.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/activity_enfj_weather.xml" value="0.23802083333333332" />
-        <entry key="app/src/main/res/layout/activity_enfp1.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_enfp_intro.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/activity_enfp_weather.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_entj_intro.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/activity_entj_weather.xml" value="0.22395833333333334" />
         <entry key="app/src/main/res/layout/activity_entp_intro.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_esfj_intro.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_esfp_intro.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/activity_esfp_weather.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_estj_intro.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/activity_estj_weather.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_estp_intro.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/activity_estp_weather.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_infj_intro.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_infp_intro.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_intj_intro.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_intj_list.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/activity_intj_weather.xml" value="0.22395833333333334" />
         <entry key="app/src/main/res/layout/activity_intp_intro.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_isfj_intro.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/activity_isfj_weather.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_isfp_intro.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/activity_isfp_weather.xml" value="0.22395833333333334" />
         <entry key="app/src/main/res/layout/activity_istj_intro.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_istp_intro.xml" value="0.3098958333333333" />
-        <entry key="app/src/main/res/layout/activity_istp_weather.xml" value="0.23802083333333332" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23802083333333332" />
         <entry key="app/src/main/res/layout/activity_mbti_input.xml" value="0.3098958333333333" />
         <entry key="app/src/main/res/layout/activity_weather.xml" value="0.3098958333333333" />
       </map>

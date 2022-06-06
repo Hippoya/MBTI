@@ -333,7 +333,7 @@ public class home extends AppCompatActivity {
             }
         });
 
-        //모든 MBTI 버튼 클릭시 테스트 화면 이동
+        //모든 MBTI 버튼 클릭시
         Button btn_all_mbti = (Button)findViewById(R.id.btn_all_mbti);
         btn_all_mbti.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -343,21 +343,15 @@ public class home extends AppCompatActivity {
             }
         });
 
-        //MBTI 버튼 클릭시 테스트 화면 이동
+        //지도 버튼 클릭시
         Button btn_allmap = (Button)findViewById(R.id.btn_allmap);
         btn_allmap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                String url = "https://naver.com";
-//                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 Intent intent = new Intent(getApplication(), all_map.class);
                 startActivity(intent);
             }
         });
-
-        //
-        //                String url = "https://naver.com";
-//                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
 
 
     }

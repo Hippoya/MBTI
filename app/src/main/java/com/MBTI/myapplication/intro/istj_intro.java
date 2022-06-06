@@ -11,6 +11,8 @@ import android.widget.Button;
 import com.MBTI.myapplication.R;
 import com.MBTI.myapplication.list.entp.entp_list;
 import com.MBTI.myapplication.list.istj.istj_list;
+import com.MBTI.myapplication.weather.enfj_weather;
+import com.MBTI.myapplication.weather.istj_weather;
 
 public class istj_intro extends AppCompatActivity {
 
@@ -26,6 +28,15 @@ public class istj_intro extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), istj_list.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn_istj_weather = (Button)findViewById(R.id.btn_istj_weather);
+        btn_istj_weather.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), istj_weather.class);
                 startActivity(intent);
             }
         });

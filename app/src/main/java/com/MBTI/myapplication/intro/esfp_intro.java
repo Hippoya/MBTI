@@ -11,6 +11,8 @@ import android.widget.Button;
 import com.MBTI.myapplication.R;
 import com.MBTI.myapplication.list.entp.entp_list;
 import com.MBTI.myapplication.list.esfp.esfp_list;
+import com.MBTI.myapplication.weather.enfj_weather;
+import com.MBTI.myapplication.weather.esfp_weather;
 
 public class esfp_intro extends AppCompatActivity {
 
@@ -26,6 +28,15 @@ public class esfp_intro extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), esfp_list.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btn_esfp_weather = (Button)findViewById(R.id.btn_esfp_weather);
+        btn_esfp_weather.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), esfp_weather.class);
                 startActivity(intent);
             }
         });

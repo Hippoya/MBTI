@@ -49,7 +49,7 @@ public class intj_list extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intj_list);
 
-        String page = "http://59.15.92.92/intj.php";
+        String page = "http://59.15.74.148/intj.php";
         URLConnector task = new URLConnector(page);
 
         task.start();
@@ -61,8 +61,6 @@ public class intj_list extends AppCompatActivity {
         {
         }
 
-//        ArrayList<<>> jArr = new ArrayList<>();
-
         int mbti_type = 0;
         String attraction_name = null;
         String image_address = null;
@@ -73,8 +71,8 @@ public class intj_list extends AppCompatActivity {
         String attraction_page_address = null;
         JSONObject jo = null;
         ArrayList<String> strArr = new ArrayList<>();
-        ArrayList<Integer> intArr = new ArrayList<>();
-        ArrayList<Double> doubleArr = new ArrayList<>();
+//        ArrayList<Integer> intArr = new ArrayList<>();
+//        ArrayList<Double> doubleArr = new ArrayList<>();
 
         String result = task.getResult();
         try{
@@ -92,10 +90,10 @@ public class intj_list extends AppCompatActivity {
                 strArr.add(jo.getString("attraction_explain"));
                 strArr.add(jo.getString("attraction_page_address"));
 
-                intArr.add(jo.getInt("mbti_type"));
-
-                doubleArr.add(jo.getDouble("latitude"));
-                doubleArr.add(jo.getDouble("longitude"));
+//                intArr.add(jo.getInt("mbti_type"));
+//
+//                doubleArr.add(jo.getDouble("latitude"));
+//                doubleArr.add(jo.getDouble("longitude"));
 
 //                mbti_type = jo.getInt("mbti_type");
 //                attraction_name = jo.getString("attraction_name");
@@ -136,13 +134,14 @@ public class intj_list extends AppCompatActivity {
 
 
         List<String> list = new ArrayList<>();
-        list.add("1");
-//        list.add("불국사");
-//
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, list);
+        for (int i = 0; i < strArr.size(); i += 5)
+        {
+            list.add(strArr.get(i));
+        }
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.list_font, list);
         listView.setAdapter(adapter);
 
-//        showList();
 
 
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -150,18 +149,43 @@ public class intj_list extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
 //                String data = (String) adapterView.getItemAtPosition(position);
 
-                Intent intent;
+                Intent intent = null;
 
                 switch(position)
                 {
                     case 0:
                         intent = new Intent(getApplicationContext(), intj1.class);
-                        intent.putExtra("sVal", strArr);
-                        startActivity(intent);
+                        break;
+                    case 1:
+                        intent = new Intent(getApplicationContext(), intj2.class);
+                        break;
+                    case 2:
+                        intent = new Intent(getApplicationContext(), intj3.class);
+                        break;
+                    case 3:
+                        intent = new Intent(getApplicationContext(), intj4.class);
+                        break;
+                    case 4:
+                        intent = new Intent(getApplicationContext(), intj5.class);
+                        break;
+                    case 5:
+                        intent = new Intent(getApplicationContext(), intj6.class);
+                        break;
+                    case 6:
+                        intent = new Intent(getApplicationContext(), intj7.class);
+                        break;
+                    case 7:
+                        intent = new Intent(getApplicationContext(), intj8.class);
+                        break;
+                    case 8:
+                        intent = new Intent(getApplicationContext(), intj9.class);
+                        break;
+                    case 9:
+                        intent = new Intent(getApplicationContext(), intj10.class);
                         break;
                 }
-
-
+                intent.putExtra("sVal", strArr);
+                startActivity(intent);
 
             }
         });
