@@ -28,7 +28,7 @@ public class intj_weather extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_weather);
+        setContentView(R.layout.activity_intj_weather);
 
         //weather_text = (TextView)findViewById(R.id.weather_text);
 
